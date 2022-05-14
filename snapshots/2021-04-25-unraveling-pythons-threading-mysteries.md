@@ -3,9 +3,10 @@ title: Unraveling Pythons Threading Mysteries
 date: 2021-04-25
 tags:
   - Python
+  - recommended-readings
 ---
 
-## Part 1: Unraveling Pythons Threading Mysteries
+### Part 1: Unraveling Pythons Threading Mysteries
 
 前半部分比较简单, 比较了 threading 和 multiprocessing 的区别. Threading 怎么都不
 是正确的 CPU-bound parallelization. (比较奇怪的是, 为什么 ThreadPoolExecutor 固
@@ -23,10 +24,9 @@ tags:
    模块查看 statement 的 bytecode. 同时解释了 Python 的 GIL 在 bytecode 上是怎么
    导致 race condition 的 (`sys.setcheckinterval()`)
 
-> [Unraveling Python’s threading mysteries.]
-> (https://towardsdatascience.com/unraveling-pythons-threading-mysteries-e79e001ab4c)
+> [Unraveling Python’s Threading Mysteries](https://towardsdatascience.com/unraveling-pythons-threading-mysteries-e79e001ab4c)
 
-## Part 2: what the GIL is
+### Part 2: what the GIL is
 
 全文有点长, 讲述了 Python 下 threading model 的起源与思考, Python 的 threading
 是 share everything 的.
