@@ -1,6 +1,6 @@
 ---
-title: "Rain\'s Rust CLI recommendations"
-date: 2021-01-23
+title: "Rain's Rust CLI recommendations"
+date: 2022-01-23
 tags: ["rust", "cli"]
 ---
 
