@@ -1,6 +1,7 @@
 ---
 title: "Drop order in Rust: It's tricky"
 date: 2021-03-31
+draft: true
 tags:
   - rust
 ---

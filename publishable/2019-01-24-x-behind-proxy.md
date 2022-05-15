@@ -2,12 +2,12 @@
 title: "X Behind Proxy"
 created: 2019-01-24
 updated: 2019-01-24
-tags: ["shell", "linux"]
+tags: ["shell", "linux", "dev", "today-i-learn"]
 ---
 
 操蛋的 Firewall
 
-前置/正向代理
+本文主要介绍不同环境和软件下如何配置正向代理 (forward proxy)
 
 ## Environment variables in unix-like system
 
@@ -31,7 +31,9 @@ Create file `/etc/apt/apt.conf.d/proxy.conf` and add following configuration:
 
 ### visudo
 
-In some releases sudo is configured in such a way that all environment variables all cleared when running the command. To keep the value for your http_proxy and fix this, you need to edit `/etc/sudoers`, run:
+In some releases sudo is configured in such a way that all environment variables
+all cleared when running the command. To keep the value for your http_proxy and
+fix this, you need to edit `/etc/sudoers`, run:
 
     visudo
 
@@ -45,7 +47,9 @@ and add after it:
 
 Things will start working as expected.
 
-In order to not only fix apt-get but also graphical X11 utils as e.g synaptic,mintintall, ...) the following line in `/etc/sudoers` should do the job :
+In order to not only fix apt-get but also graphical X11 utils as e.g
+synaptic,mintintall, ...) the following line in `/etc/sudoers` should do the job
+:
 
     Defaults env_keep = "http_proxy https_proxy ftp_proxy DISPLAY XAUTHORITY"
 
@@ -142,9 +146,12 @@ Ref:
 
 ### inside a container
 
-Create or edit the file `~/.docker/config.json` in the home directory of the user which starts containers. Add JSON such as the following, substituting the type of proxy with `httpsProxy`, `ftpProxy` or `noProxy`.
+Create or edit the file `~/.docker/config.json` in the home directory of the
+user which starts containers. Add JSON such as the following, substituting the
+type of proxy with `httpsProxy`, `ftpProxy` or `noProxy`.
 
-When you create or start new containers, the environment variables are set automatically within the container.
+When you create or start new containers, the environment variables are set
+automatically within the container.
 
 ```json
 {
@@ -158,15 +165,20 @@ When you create or start new containers, the environment variables are set autom
 }
 ```
 
-Ref: [Configure Docker to use a proxy server](https://docs.docker.com/network/proxy/)
+Ref:
+[Configure Docker to use a proxy server](https://docs.docker.com/network/proxy/)
 
 ### docker daemon
 
-The Docker daemon uses the `HTTP_PROXY`, `HTTPS_PROXY`, and `NO_PROXY` environmental variables in its start-up environment to configure HTTP or HTTPS proxy behavior. You cannot configure these environment variables using the daemon.json file.
+The Docker daemon uses the `HTTP_PROXY`, `HTTPS_PROXY`, and `NO_PROXY`
+environmental variables in its start-up environment to configure HTTP or HTTPS
+proxy behavior. You cannot configure these environment variables using the
+daemon.json file.
 
 This example overrides the default docker.service file.
 
-If you are behind an HTTP or HTTPS proxy server, for example in corporate settings, you need to add this configuration in the Docker systemd service file.
+If you are behind an HTTP or HTTPS proxy server, for example in corporate
+settings, you need to add this configuration in the Docker systemd service file.
 
 1. Create a systemd drop-in directory for the docker service:
 
@@ -205,11 +217,15 @@ sudo systemctl restart docker
 systemctl show --property=Environment docker
 ```
 
-Ref: [Control Docker with systemd](https://docs.docker.com/config/daemon/systemd/)
+Ref:
+[Control Docker with systemd](https://docs.docker.com/config/daemon/systemd/)
 
 ## Snap
 
-First one, snapd reads `/etc/environment`, so setting the usual proxy environment variables there works. On Ubuntu, that's done automatically for you by Settings -> Network -> Network proxy, so as long as you restart snapd after changing that file you should be set.
+First one, snapd reads `/etc/environment`, so setting the usual proxy
+environment variables there works. On Ubuntu, that's done automatically for you
+by Settings -> Network -> Network proxy, so as long as you restart snapd after
+changing that file you should be set.
 
     http_proxy=http://PROXYHOST:PORT
     https_proxy=http://PROXYHOST:PORT
@@ -235,7 +251,8 @@ Ref:
 
 ## npm behind proxy
 
-Usually, npm will read your environment variables `http_proxy` and `https_proxy`.
+Usually, npm will read your environment variables `http_proxy` and
+`https_proxy`.
 
 But you still could set individual proxy by adding lines to your `~/.npmrc`:
 

@@ -2,8 +2,8 @@
 title: Unraveling Pythons Threading Mysteries
 date: 2021-04-25
 tags:
-  - Python
-  - recommended-readings
+  - python
+  - recommended-reading
 ---
 
 ### Part 1: Unraveling Pythons Threading Mysteries

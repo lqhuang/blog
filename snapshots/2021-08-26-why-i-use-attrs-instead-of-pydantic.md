@@ -3,7 +3,7 @@ title: "Why I use attrs instead of pydantic"
 date: 2021-08-26
 tags:
   - recommended-reading
-  - Python
+  - python
 ---
 
 文章作者作为 cattrs 的开发者 (利益相关) 比较了 attrs 相比 pydantic 的优点.
