@@ -2,7 +2,8 @@
 title: "`tomli` will be added to standard library in Python 3.11"
 date: 2022-03-14
 tags:
-  - Python
+  - python
+  - news
 ---
 
 Such a great news that parser library for `TOML` will be included in standard
@@ -16,4 +17,4 @@ extra deps 🤔?
 > library in Python 3.11 via
 > [PEP 680](https://www.python.org/dev/peps/pep-0680/).
 >
-> Reference: https://github.com/hukkin/tomli
+> Reference: [Github - hukkin/tomli](https://github.com/hukkin/tomli)

@@ -2,7 +2,7 @@
 title: "Stroing State in the URL"
 date: 2022-05-10
 tags:
-  - Python
+  - backend
   - dev
 ---
 

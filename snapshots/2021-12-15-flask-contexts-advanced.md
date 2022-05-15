@@ -2,7 +2,7 @@
 title: "Deep Dive into Flask's Application and Request Contexts"
 date: 2021-12-15
 tags:
-  - Python
+  - python
 ---
 
 Highlight:

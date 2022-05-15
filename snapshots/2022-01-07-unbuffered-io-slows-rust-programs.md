@@ -3,9 +3,10 @@ title: "Unbuffered I/O Can Make Your Rust Programs Much Slower"
 date: 2022-01-07
 tags:
   - rust
+  - today-i-learned
 ---
 
-TIL (today I learned)
+TIL (today I learned):
 
 1. Use `strace` and `perf` to count how many syscalls were invoked.
 2. Yeah, Rust actually supports file I/O without buffer. It's may more simple in
@@ -22,7 +23,6 @@ TIL (today I learned)
 > - Even experienced programmers can miss these issues
 > - We can use `strace` and `awk` to find if and where unbuffered I/O happens in
 >   our programs
-
-From:
-
-> https://era.co/blog/unbuffered-io-slows-rust-programs
+>
+> From:
+> [Unbuffered I/O Can Make Your Rust Programs Much Slower](https://era.co/blog/unbuffered-io-slows-rust-programs)

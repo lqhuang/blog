@@ -2,7 +2,8 @@
 title: "Removing dead batteries from the standard library"
 date: 2022-03-20
 tags:
-  - Python
+  - python
+  - news
 ---
 
 Python has famous "batteries included" philosophy for its rich standard library
