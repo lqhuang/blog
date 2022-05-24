@@ -4,7 +4,7 @@ date: 2022-04-23
 draft: true
 tags:
   - Python
-  - recommended-readings
+  - good-reading
 ---
 
 > https://superfastpython.com/threading-in-python/

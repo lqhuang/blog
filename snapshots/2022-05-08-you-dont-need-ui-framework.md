@@ -2,7 +2,7 @@
 title: "You Don’t Need A UI Framework"
 date: 2022-05-08
 tags:
-  - recommended-readings
+  - good-reading
   - froent-end
   - css
 ---

@@ -2,7 +2,7 @@
 title: "Why I use attrs instead of pydantic"
 date: 2021-08-26
 tags:
-  - recommended-reading
+  - good-reading
   - python
 ---
 

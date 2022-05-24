@@ -2,7 +2,7 @@
 title: "Make Yourself Replaceable"
 date: 2022-04-27
 tags:
-  - recommended-readings
+  - good-reading
   - career
 ---
 
