@@ -4,7 +4,7 @@ date: 2022-01-04
 draft: true
 tags:
   - coding
-  - reading
+  - tutorial
 ---
 
 Good rules for writting comments

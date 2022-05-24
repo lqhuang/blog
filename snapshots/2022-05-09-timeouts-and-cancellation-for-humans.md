@@ -4,7 +4,8 @@ date: 2022-05-09
 tags:
   - python
   - dev
-  - recommended-readings
+  - good-reading
+draft: true
 ---
 
 wait for comments

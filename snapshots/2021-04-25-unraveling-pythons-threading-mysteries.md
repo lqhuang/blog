@@ -3,7 +3,7 @@ title: Unraveling Pythons Threading Mysteries
 date: 2021-04-25
 tags:
   - python
-  - recommended-reading
+  - good-reading
 ---
 
 ### Part 1: Unraveling Pythons Threading Mysteries
