@@ -12,7 +12,8 @@ tags: ["insight", "dev"]
 
 同时也有一些人做了一些工具来生成 Skill Tree / Skill Map
 
-> [Github-niyue/skillmap](https://github.com/niyue/skillmap) >
+> [Github-niyue/skillmap](https://github.com/niyue/skillmap)
+>
 > [Github-nikomatsakis/skill-tree](https://github.com/nikomatsakis/skill-tree)
 
 有点类似之前有人做的
