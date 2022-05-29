@@ -1,32 +1,27 @@
 ---
-title: Python Class 实例化的完整流程
-date: 2021-09-23
-
+title: Python 类实例化的完整流程
+created: 2021-09-23
+updated:
+tags:
+  - python
+draft: true
 ---
 
+`metaclass`
 
+`__post_class__`?
 
+`__new__`
 
-metaclass
+`__mro__`
 
-__post_class__?
-
-__new__
-
-__mro__
-
-__subclasshook__
+`__subclasshook__`
 
 什么是 "virtual subclasses"
 
-
-从执行 __ini__ 前后有什么额外检查/注入等等其他黑魔法。
+从执行 `__init__` 前后有什么额外检查/注入等等其他黑魔法。
 
 子类实例化时是否还有其他问题等等
 
-
-
-
-https://github.com/python/cpython/blob/main/Lib/_collections_abc.py
-https://github.com/python/cpython/blob/main/Lib/abc.py
-
+1. https://github.com/python/cpython/blob/main/Lib/_collections_abc.py
+2. https://github.com/python/cpython/blob/main/Lib/abc.py
