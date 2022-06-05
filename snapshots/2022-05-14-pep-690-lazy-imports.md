@@ -6,10 +6,10 @@ tags:
 ---
 
 IMHO, I like lazy imports as a fancy and powerful **opt-in** feature, but it's
-quite doubtful about setting this feature default to be enabled in current
-proposal.
+quite doubtful to set this feature enabled by default in current proposal (PEP
+690).
 
-Implicit behaviors are terrible and obviously will break backward compatibility.
+Implicit behaviors are terrible and will obviously break backward compatibility.
 
 Do we forget the Zen of Python: "Explicit is better than implicit"?
 

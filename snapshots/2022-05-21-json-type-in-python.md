@@ -3,6 +3,7 @@ title: "Initial JSON Type Support in Python"
 date: 2022-05-21
 tags:
   - python
+  - tips
 ---
 
 Because typing system in Python lacks of recursive type, we can not annotate
