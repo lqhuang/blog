@@ -3,7 +3,7 @@ title: "Threading in Python"
 date: 2022-04-23
 draft: true
 tags:
-  - Python
+  - python
   - good-reading
 ---
 
