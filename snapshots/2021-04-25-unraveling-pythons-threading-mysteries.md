@@ -2,7 +2,7 @@
 title: Unraveling Pythons Threading Mysteries
 date: 2021-04-25
 tags:
-  - python
+  - python/gil
   - good-reading
 ---
 

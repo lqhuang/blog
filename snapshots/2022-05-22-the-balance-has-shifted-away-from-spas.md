@@ -4,7 +4,7 @@ date: 2022-05-22
 tags:
   - dev
   - front-end
-  - reading
+  - good-reading
 ---
 
 What is next trend in Javascript UI framework (maybe should limit to SSG)? I

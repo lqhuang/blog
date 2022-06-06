@@ -4,6 +4,7 @@ date: 2022-06-05
 tags:
   - hpc
   - news
+  - algorithms
 ---
 
 Jeff Dean quotes about a state-of-art vectorized quicksort algorithm developed
