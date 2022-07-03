@@ -4,6 +4,7 @@ date: 2022-05-21
 tags:
   - python
   - tips
+draft: true
 ---
 
 Because typing system in Python lacks of recursive type, we can not annotate
@@ -22,3 +23,5 @@ if TYPE_CHECKING:
 Of course, we still need to wait offical `JSON` type support.
 
 > [Define a JSON type #182](https://github.com/python/typing/issues/182#issuecomment-1133611222)
+
+Update 2022-06-22: The PR in `typeshed` still can not be merged.

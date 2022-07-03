@@ -18,3 +18,8 @@ lightweight and speed. Here are serveral featured libraries:
 
 > SPAs are no longer the cool kids they once were 10 years ago. ---
 > [The balance has shifted away from SPAs](https://nolanlawson.com/2022/05/21/the-balance-has-shifted-away-from-spas/)
+
+Update 2022-07-03:
+
+New player is comming. [denoland/fresh](https://github.com/denoland/fresh): The
+next-gen web framework.
