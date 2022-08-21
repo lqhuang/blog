@@ -291,3 +291,7 @@ https://gist.github.com/vxgmichel/4ea46d3ae5c270260471d304a2c8e97b
 https://vorpus.org/blog/some-thoughts-on-asynchronous-api-design-in-a-post-asyncawait-world/#websocket-servers
 https://realpython.com/async-io-python/
 https://stackoverflow.com/questions/49637086/python-what-is-queue-task-done-used-for
+
+https://realpython.com/queue-in-python/#using-thread-safe-queues
+
+Rich examples for queue

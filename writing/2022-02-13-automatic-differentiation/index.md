@@ -24,3 +24,4 @@ differentiable programming swift? julia?
 - https://arxiv.org/abs/1502.05767
 - https://www.assemblyai.com/blog/why-you-should-or-shouldnt-be-using-jax-in-2022/
 - https://mp.weixin.qq.com/s/COXJW0mj-mHAQxIUOIvreg
+- Wow: https://thenumb.at/Autodiff/

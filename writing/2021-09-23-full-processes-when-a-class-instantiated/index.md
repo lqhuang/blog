@@ -25,3 +25,6 @@ draft: true
 
 1. https://github.com/python/cpython/blob/main/Lib/_collections_abc.py
 2. https://github.com/python/cpython/blob/main/Lib/abc.py
+3. https://twitter.com/mathsppblog/status/1543964703432605696
+4. https://blog.wh2099.com/python/c3-mro
+5. https://www.godaddy.com/engineering/2018/12/20/python-metaclasses/
