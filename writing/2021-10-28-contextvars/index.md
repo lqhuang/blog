@@ -33,3 +33,9 @@ Refs:
 - https://stackoverflow.com/questions/63105799/understanding-python-contextvars
 
 Next step: https://www.python.org/dev/peps/pep-0568/
+
+## Practices
+
+Use contextvar to write a thread-safe LocalStack
+
+- https://github.com/pallets/werkzeug/blob/main/src/werkzeug/local.py
