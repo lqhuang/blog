@@ -5,6 +5,7 @@ updated: 2022-08-21
 tags:
   - parallel
   - data-structures
+draft: True
 ---
 
 scala codes as example to exemptlify parallel data structures

@@ -1,5 +1,5 @@
 ---
-title: "Exponentially Better Rotation"s
+title: Exponentially Better Rotations
 created: 2022-04-20
 tags:
   - translation

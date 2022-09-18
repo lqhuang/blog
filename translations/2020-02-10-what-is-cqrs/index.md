@@ -1,10 +1,11 @@
 ---
 title: "什么是 CQRS"
-date: 2020-02-10
+created: 2020-02-10
 tags:
   - translation
   - cqrs
   - architecture
+draft: True
 ---
 
 - https://medium.com/applantic/applantic-what-is-cqrs-f32039d746bc
