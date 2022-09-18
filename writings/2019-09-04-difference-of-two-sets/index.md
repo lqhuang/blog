@@ -1,8 +1,8 @@
 ---
-title: difference-
-datetime: 2019-09-04 14:53
+title: 并查集
+created: 2019-09-04 14:53
+draft: True
 ---
-
 
 ## 愚蠢版
 
@@ -45,26 +45,21 @@ https://github.com/python/cpython/blob/675d17cec49ed7f7eb01d1bc3ae6999c728e070d/
 https://github.com/python/cpython/blob/master/Objects/setobject.c#L1540
 
 ## Symmetric difference of two sorted array
+
 https://www.geeksforgeeks.org/symmetric-difference-two-sorted-array/
 
-
 ## References
-
-
 
 https://arxiv.org/abs/1301.3388
 https://cs.stackexchange.com/questions/17984/computing-set-difference-between-two-large-sets
 https://en.wikipedia.org/wiki/Bit_array
 https://en.wikipedia.org/wiki/Embarrassingly_parallel
 
-
-
 O(NlogN) -> https://en.cppreference.com/w/cpp/algorithm/set_difference
 
 If you're using C++, there is support in the standard library for this (std::set_difference)
 http://www.cplusplus.com/reference/algorithm/set_difference/
 That documentation even includes equivalent "pseudocode" (really, just more C++) that you can use to port the idea to other languages. The algorithm is close to the "merging" part of mergesort. Note that std::set_difference operates upon sorted ranges, not std::sets (this is a good thing - means sorted std::vector's are adequate).
-
 
 ## bitmap
 

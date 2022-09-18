@@ -356,6 +356,7 @@ Finally an example, where both the result value and the state value are signific
 
 Of course, such stateful computations can be further combined, so the current state doesn't have to be the initial state. Let's see how this works by writing a simple state-backed pseudo-random number generator:
 
+```haskell
 import Data.Word
 
 type LCGState = Word32
@@ -364,6 +365,7 @@ lcg :: LCGState -> (Integer, LCGState)
 lcg s0 = (output, s1)
   where s1 = 1103515245 * s0 + 12345
         output = fromIntegral s1 * 2^16 `div` 2^32
+```
 
 This function implements a pseudo-random number generator called a linear congruential generator, which advances its current state s0 to s1 with the following formula: s1 = (1103515245 * s0 + 12345) mod 2^32, and then outputs the highest 16 bits of s1 as a random number.
 
@@ -729,10 +731,12 @@ forM_ :: Monad m => [a] -> (a -> m b) -> m ()
 
 These functions are most useful in state monads. They allow you to apply a monadic function to a list. forM is the same as mapM with the arguments flipped. If you don't need the results, or if the results are meaningless, you can use mapM_ or forM_, which are the same, but they ignore the result.
 
+```haskell
 import System.Environment
 
 main :: IO ()
 main = getArgs >>= mapM_ putStrLn
+```
 
 The getArgs computation returns a list of the command line arguments given to the program. To print those arguments, each on its own line, the code above uses mapM_.
 
@@ -763,14 +767,17 @@ sequence [c0, c1, ..., cn]
 
 Example:
 
+```haskell
 import System.Environment
 
 main :: IO ()
 main = sequence [getProgName, getEnv "HOME", getLine]
          >>= print
+```
 
 The above example uses sequence to run three computations of type IO String. The results are collected in the result list, which is bound to print. When running that program, nothing will happen at first, because the last of the three computations requests an input line from the user. After that, the resulting list of three strings is printed. The code is equivalent to:
 
+```haskell
 import System.Environment
 
 main :: IO ()
@@ -782,6 +789,7 @@ main = do
     return [a,b,c]
 
   print results
+```
 
 Although this function is easily comprehensible for identity-like monads like State s or IO, it can give quite bizarre-looking results for monads, which add structure. Let's see, what sequence does in the list monad:
 
@@ -846,6 +854,7 @@ unless :: Monad m => Bool -> m () -> m ()
 
 The computation when True c is the same as c, whereas the computation when False c is the same as return (). The unless function is the reverse.
 
+```haskell
 import System.Exit
 
 main :: IO ()
@@ -854,6 +863,7 @@ main =
     line <- getLine
     when (line == "quit") exitSuccess
     putStrLn line
+```
 
 The above code repeats the following computation forever: Read a line, if that line is equal to "quit", then throw an exitSuccess exception (which simply terminates the program), then finally print the line.
 liftM: applying a non-monadic function to the result
