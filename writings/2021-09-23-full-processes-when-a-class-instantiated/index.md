@@ -30,4 +30,4 @@ draft: true
 5. https://www.godaddy.com/engineering/2018/12/20/python-metaclasses/
 6. https://sunisdown.me/python-yuan-lei.html
 7. https://developer.ibm.com/tutorials/ba-metaprogramming-python/
-
+8. !!! https://snarky.ca/unravelling-pythons-classes/
