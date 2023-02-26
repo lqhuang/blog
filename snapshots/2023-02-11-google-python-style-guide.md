@@ -15,7 +15,7 @@ class A:
     def foo(self, obj):
         match obj:
             case (1, a, 3):
-                now_you_can_write_functions_or_logical_codes()
+                now_you_can_write_functions_or_codes()
             case C(x, y):
                 ...
 ```
