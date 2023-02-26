@@ -1,7 +1,7 @@
 ---
 title: "X Behind Proxy"
 created: 2019-01-24
-updated: 2019-01-24
+updated: 2023-02-26
 tags: ["shell", "linux", "dev", "today-i-learn"]
 ---
 
@@ -273,3 +273,13 @@ IPv4:
     172.16.*;172.17.*; ...; 172.30.*;172.31.*;
     # 192.168.0.0/16
     192.168.*
+
+## Awesome list (appended at: 2023-02-26)
+
+顺便推荐一个 proxy settings 和一个 mirrors 的列表
+
+- [comwrg/package-manager-proxy-settings](https://github.com/comwrg/package-manager-proxy-settings):
+  记录各个包管理器代理设置坑点。
+- [eryajf/Thanks-Mirror](https://github.com/eryajf/Thanks-Mirror): 整理记录各个
+  包管理器，系统镜像，以及常用软件的好用镜像，Thanks Mirror。 走过路过，如觉不错
+  ，麻烦点个赞 👆🌟
