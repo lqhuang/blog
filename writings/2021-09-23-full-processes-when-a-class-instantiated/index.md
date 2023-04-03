@@ -23,7 +23,7 @@ draft: true
 
 子类实例化时是否还有其他问题等等
 
-1. https://github.com/python/cpython/blob/main/Lib/_collections_abc.py
+1. <https://github.com/python/cpython/blob/main/Lib/_collections_abc.py>
 2. https://github.com/python/cpython/blob/main/Lib/abc.py
 3. https://twitter.com/mathsppblog/status/1543964703432605696
 4. https://blog.wh2099.com/python/c3-mro
@@ -32,3 +32,8 @@ draft: true
 7. https://developer.ibm.com/tutorials/ba-metaprogramming-python/
 8. https://snarky.ca/unravelling-pythons-classes/
 9. https://til.simonwillison.net/python/init-subclass
+10. https://github.com/MoserMichael/python-obj-system/blob/master/python-obj-system.md
+11. https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/
+12. https://amr-khalil.medium.com/a-deep-dive-into-the-new-method-in-python-25e4cb5d1361
+13. https://blog.allsunday.io/posts/2014-11-09-python-mutiple-metaclass/
+
