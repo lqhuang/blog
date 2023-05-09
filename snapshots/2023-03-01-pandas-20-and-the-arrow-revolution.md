@@ -25,3 +25,7 @@ Refs:
 - [Apache Arrow and the "10 Things I Hate About pandas"](https://wesmckinney.com/blog/apache-arrow-pandas-internals)
 - [Debatable benchmark from from Ritchie Vink](https://twitter.com/RitchieVink/status/1632334005264580608)
 <!-- - [Pandas 2.0 and the Arrow revolution (part II)](https://datapythonista.me/blog/pandas-20-and-the-arrow-revolution-part-ii) -->
+
+Updated: 2023-04-20
+
+- [Pandas 2.0 vs Pandas 1.3 — Performance Comparison](https://medium.com/@santiagobasulto/pandas-2-0-performance-comparison-3f56b4719f58)
