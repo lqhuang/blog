@@ -38,4 +38,7 @@ Next step: https://www.python.org/dev/peps/pep-0568/
 
 Use contextvar to write a thread-safe LocalStack
 
+## Refs
+
 - https://github.com/pallets/werkzeug/blob/main/src/werkzeug/local.py
+- https://www.cnblogs.com/traditional/p/17403428.html

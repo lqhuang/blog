@@ -35,3 +35,5 @@ Refs:
 - [^1][Real Multithreading is Coming to Python - Learn How You Can Use It Now](https://martinheinz.dev/blog/97)
 - [Tweet status from @simonw](https://twitter.com/simonw/status/1658200421553553408)
 - [Tweet status from @mitsuhiko](https://twitter.com/mitsuhiko/status/1645747519782092806)
+- [PEP 684: A Per-Interpreter GIL](https://discuss.python.org/t/pep-684-a-per-interpreter-gil/19583)
+
