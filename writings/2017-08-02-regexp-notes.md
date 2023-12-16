@@ -106,3 +106,4 @@ tags: ["regex"]
 3. [MSDN 正则表达式语法](<https://msdn.microsoft.com/zh-cn/library/ae5bf541(v=vs.100).aspx>)
 4. [正则表达式 30 分钟入门教程](https://deerchao.net/tutorials/regex/regex.htm)
 5. [常用正则表达式](https://deerchao.net/tutorials/regex/common.htm)
+6. 🌟 [RegEX 备忘清单](https://quickref.me/zh-CN/docs/regex.html)
