@@ -30,3 +30,9 @@ vis
 <https://mp.weixin.qq.com/s/7zm_NrM4YikLJ2MJ_QaVbw>
 
 !!! good <https://github.com/veekaybee/what_are_embeddings>
+
+- https://www.ruder.io/word-embeddings-1/
+- https://www.ruder.io/word-embeddings-2017/
+- https://www.ruder.io/word-embeddings-softmax/
+- [斯坦福深度自然语言处理笔记：初入词向量](https://mp.weixin.qq.com/s/4h2NaFY_lTA6RjEGKLI9-w)
+- [斯坦福深度自然语言处理笔记：深入词向量训练](https://mp.weixin.qq.com/s/uFug131YoCknoOb6Vfqieg)

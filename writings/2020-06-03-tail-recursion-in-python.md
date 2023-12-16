@@ -12,3 +12,4 @@ draft: True
 - https://zhuanlan.zhihu.com/p/72564126
 - https://www.jianshu.com/p/d696ffa07f8b
 - https://gist.github.com/vxgmichel/590f3e0dbc1a3a841251881686313346
+- [Title](https://blog.jonas.foo/posts/python-tail-call-optimization/)

@@ -42,3 +42,4 @@ Use contextvar to write a thread-safe LocalStack
 
 - https://github.com/pallets/werkzeug/blob/main/src/werkzeug/local.py
 - https://www.cnblogs.com/traditional/p/17403428.html
+- https://photonlines.substack.com/p/grokking-hash-array-mapped-tries
