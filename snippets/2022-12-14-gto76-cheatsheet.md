@@ -3,6 +3,8 @@ title: Comprehensive Linux and Python Cheatsheet
 date: 2022-12-14
 tags:
   - dev
+  - python
+  - linux
 ---
 
 Two awesome cheatsheets for linux and python in the new approaches.
