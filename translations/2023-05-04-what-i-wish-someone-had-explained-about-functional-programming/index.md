@@ -1,0 +1,1 @@
+- https://jrsinclair.com/articles/2019/what-i-wish-someone-had-explained-about-functional-programming/
