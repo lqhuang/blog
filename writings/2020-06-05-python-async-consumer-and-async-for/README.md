@@ -284,16 +284,15 @@ if __name__ == '__main__':
 
 ## References:
 
-https://docs.python.org/dev/library/asyncio-task.html
-https://stackoverflow.com/questions/56902202/python-async-generator-not-async
-https://www.educative.io/blog/python-concurrency-making-sense-of-asyncio
-https://gist.github.com/vxgmichel/4ea46d3ae5c270260471d304a2c8e97b
-https://vorpus.org/blog/some-thoughts-on-asynchronous-api-design-in-a-post-asyncawait-world/#websocket-servers
-https://realpython.com/async-io-python/
-https://stackoverflow.com/questions/49637086/python-what-is-queue-task-done-used-for
-
-https://realpython.com/queue-in-python/#using-thread-safe-queues
-
-Rich examples for queue
-
-https://bbc.github.io/cloudfit-public-docs/asyncio/asyncio-part-3.html
+- https://docs.python.org/dev/library/asyncio-task.html
+- https://stackoverflow.com/questions/56902202/python-async-generator-not-async
+- https://www.educative.io/blog/python-concurrency-making-sense-of-asyncio
+- https://gist.github.com/vxgmichel/4ea46d3ae5c270260471d304a2c8e97b
+- https://vorpus.org/blog/some-thoughts-on-asynchronous-api-design-in-a-post-asyncawait-world/#websocket-servers
+- https://realpython.com/async-io-python/
+- https://stackoverflow.com/questions/49637086/python-what-is-queue-task-done-used-for
+- https://realpython.com/queue-in-python/#using-thread-safe-queues
+- Rich examples for queue
+- https://bbc.github.io/cloudfit-public-docs/asyncio/asyncio-part-3.html
+- Merge async streaming
+- https://stackoverflow.com/questions/51399339/appending-to-merged-async-generators-in-python/51403277#51403277
