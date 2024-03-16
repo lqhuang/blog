@@ -23,3 +23,5 @@ partial partialmethod in async version
 
 - https://github.com/MoserMichael/python-obj-system/blob/master/decorator.md
 - https://mathspp.com/blog/pydonts/describing-descriptors
+- https://jacobpadilla.com/articles/Functools-Deep-Dive
+- https://www.bitecode.dev/p/xmas-decorations-part-3
