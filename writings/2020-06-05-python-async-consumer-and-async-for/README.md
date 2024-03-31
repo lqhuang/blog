@@ -294,5 +294,17 @@ if __name__ == '__main__':
 - https://realpython.com/queue-in-python/#using-thread-safe-queues
 - Rich examples for queue
 - https://bbc.github.io/cloudfit-public-docs/asyncio/asyncio-part-3.html
-- Merge async streaming
-- https://stackoverflow.com/questions/51399339/appending-to-merged-async-generators-in-python/51403277#51403277
+
+Update: 2024-02-19
+
+- https://stackoverflow.com/questions/53701841/what-is-the-use-case-for-future-add-done-callback
+  - https://stackoverflow.com/questions/51399339/appending-to-merged-async-generators-in-python/51403277#51403277
+  - Merge async streaming
+
+Update: 2024-03-31
+
+Pull based or Push based Iterator
+
+Use #1: Push-based Iterators
+
+https://stealthrocket.tech/blog/distributed-coroutines
