@@ -3,7 +3,7 @@ title: "The balance has shifted away from SPAs"
 date: 2022-05-22
 tags:
   - dev
-  - front-end
+  - react
   - good-reading
 ---
 

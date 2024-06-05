@@ -1,6 +1,7 @@
 ---
 title: GATs (Generic Associated Types)
 created: 2020-12-21
+updated: 2020-12-21
 tags:
   - rust
   - functional-programming

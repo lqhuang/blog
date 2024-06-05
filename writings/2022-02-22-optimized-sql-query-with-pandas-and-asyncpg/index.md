@@ -1,6 +1,7 @@
 ---
 title: "Optimized SQL Query with Pandas and asyncpg"
 created: 2022-02-22
+updated: 2022-02-22
 tags:
   - python
 draft: True

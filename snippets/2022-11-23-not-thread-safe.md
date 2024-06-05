@@ -5,7 +5,6 @@ tags:
   - rust
   - concurrency
   - good-reading
-draft: true
 ---
 
-- [Safely writing code that isn't thread-safe](https://cliffle.com/blog/not-thread-safe/)
+> [Safely writing code that isn't thread-safe](https://cliffle.com/blog/not-thread-safe/)

@@ -3,7 +3,8 @@ title: "Make Yourself Replaceable"
 date: 2022-04-27
 tags:
   - good-reading
-  - insights/career
+  - insights
+  - career
 ---
 
 Oh my god, this is completely the same with my own thoughts!

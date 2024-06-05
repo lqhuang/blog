@@ -3,7 +3,7 @@ title: Lesser Known PostgreSQL Features
 date: 2022-05-30
 tags:
   - sql
-  - readings
+  - tutorial
 ---
 
 Yeah, the first I know I could do linear regression in PostreSQL.😅 At least,

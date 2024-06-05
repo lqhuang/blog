@@ -1,7 +1,6 @@
 ---
-title: best-practices-for-writing-code-comments
+title: Best practices for writing code comments
 date: 2022-01-04
-draft: true
 tags:
   - coding
   - tutorial
@@ -9,4 +8,4 @@ tags:
 
 Good rules for writting comments
 
-> https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/
+> [Best practices for writing code comments](https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/)

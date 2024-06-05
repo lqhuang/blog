@@ -1,6 +1,7 @@
 ---
 title: subprocess
-date: 2016-09-13
+created: 2016-09-13
+updated: 2016-09-13
 tags:
   - python
   - macOS

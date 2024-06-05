@@ -1,6 +1,7 @@
 ---
 title: ADT api design
 created: 2021-10-18
+updated: 2021-10-18
 tags:
   - functional-programming
 draft: true

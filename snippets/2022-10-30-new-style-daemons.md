@@ -2,7 +2,7 @@
 title: daemon - Writing and packaging system daemons
 date: 2022-10-30
 tags:
-  - good-reading
+  - tutorial
   - dev
 ---
 
