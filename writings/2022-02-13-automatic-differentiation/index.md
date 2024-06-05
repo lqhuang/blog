@@ -1,6 +1,7 @@
 ---
 title: auto grad
 created: 2020-02-13
+updated: 2020-02-13
 tags:
   - machine-learning
   - compiler

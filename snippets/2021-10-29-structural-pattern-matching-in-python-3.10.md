@@ -1,7 +1,6 @@
 ---
 title: Structural pattern matching in Python 3.10
 date: 2021-10-29
-updated: 2021-10-29
 tags:
   - python
   - til

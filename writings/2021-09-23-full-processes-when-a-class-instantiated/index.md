@@ -1,7 +1,7 @@
 ---
 title: Python 类实例化的完整流程
 created: 2021-09-23
-updated:
+updated: 2021-09-23
 tags:
   - python
 draft: true

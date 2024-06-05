@@ -1,6 +1,7 @@
 ---
 title: Local Variable in Async Environments -- `contextvars`
 created: 2021-10-28
+updated: 2021-10-28
 draft: true
 tags:
   - python

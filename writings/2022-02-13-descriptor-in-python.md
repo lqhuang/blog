@@ -1,6 +1,7 @@
 ---
 title: "Python descriptor"
 created: 2022-02-13
+updated: 2022-02-13
 tags:
   - python
 draft: True

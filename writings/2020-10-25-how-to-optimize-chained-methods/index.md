@@ -1,6 +1,7 @@
 ---
 title: combined streaming operators 是如何减少中间过程的
 created: 2020-10-25
+updated: 2020-10-25
 tags:
   - python
   - functional-programming

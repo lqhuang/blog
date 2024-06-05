@@ -28,4 +28,4 @@ I would prefer `case int() as i` over `case int(i)`?
 
 Becase the later one feels like `i` is still unconverted to `int` yet?
 
-- https://peps.python.org/pep-0634/#class-patterns
+- [PEP 634 – Structural Pattern Matching: Specification # Class Patterns](https://peps.python.org/pep-0634/#class-patterns)

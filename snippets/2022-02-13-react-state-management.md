@@ -2,7 +2,7 @@
 title: Past, Present, and Future of React State Management
 date: 2022-02-13
 tags:
-  - front-end/react
+  - react
 ---
 
 There are efficient and popular successors for Redux to fit React hooks. What's

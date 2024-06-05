@@ -3,7 +3,7 @@ title: "50+ Midjourney Logo Design Prompts: The Complete Logo Guide"
 date: 2023-03-31
 tags:
   - design
-  - aigc
+  - generative-ai
 ---
 
 I "love" art / design, though I'm not doing it well. Yeah, I always lack ideas

@@ -15,8 +15,8 @@ language features, for user-friendly toolchains. Acutely, Kindly and Sharply.
 Here are some notes about what ecosystem matters in Scala? @rssh, @alexelcu,
 @dspiewak, even @odersky commented to talk about their thoughts.
 
-@rssh 和 @odersky 都认为 effect system 不是 Scala 的全部, @alexelcu @dspiewak 认
-为 Effect System 是现在 Scala 生态中最为重要的一环.
+@rssh and @odersky both thought effect system is all of Scala, @alexelcu 和
+@dspiewak 认为 Effect System 是现在 Scala 生态中最为重要的一环.
 
 Damn, They're all right. 他们不是矛盾的, 他们只是从不同的角度看到了不同的东西,
 这就是一体多面性吗.
@@ -25,10 +25,9 @@ Damn, They're all right. 他们不是矛盾的, 他们只是从不同的角度�
 
 > Pure Scala implementation with different backend
 
-作为一个 Fresh newbee, 对 Scala 3 充满了好感
-
+I especially like advanced improvements Scala 3 made as a newcome developer.
 Probably, I don't have too much experience in maintaining large legacy codes, I
-still support new features or aggresive improvements, even research-orient
+still support new features or aggresive changes, even research-orient
 experiments.
 
 But I also know the importance of eco-system and killer applications. AKKA 更改

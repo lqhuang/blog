@@ -1,6 +1,7 @@
 ---
 title: Weakref in Python
 created: 2021-11-08
+updated: 2021-11-08
 tags:
   - python
 draft: True

@@ -3,7 +3,7 @@ title: "Playground for Exploring Latency of Vercel Edge Functions + Database"
 date: 2023-04-20
 tags:
   - dev
-  - serverless
+  - cloud
 ---
 
 > [Tweet status from @leeerob](https://twitter.com/leeerob/status/1645432132125310978/)

@@ -2,7 +2,7 @@
 title: "Google Cloud Released AlloyDB for PostgreSQL"
 date: 2022-05-15
 tags:
-  - cloud-native
+  - cloud
   - news
 ---
 

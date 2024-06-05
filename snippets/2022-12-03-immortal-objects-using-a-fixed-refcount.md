@@ -4,7 +4,6 @@ date: 2022-12-03
 tags:
   - python
   - dev
-draft: true
 ---
 
 - [PEP 683 – Immortal Objects, Using a Fixed Refcount](https://peps.python.org/pep-0683)

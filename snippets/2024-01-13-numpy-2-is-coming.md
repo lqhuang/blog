@@ -4,6 +4,7 @@ date: 2024-01-16
 tags:
   - python
   - dev
+  - news
 ---
 
 I read a article on Python Speed about the upcoming NumPy 2.0 release. It shows

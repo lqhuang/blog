@@ -1,6 +1,7 @@
 ---
 title: Structure Concurrency in Python
-date: 2021-11-03
+created: 2021-11-03
+updated: 2021-11-03
 tags:
   - python
   - concurrency

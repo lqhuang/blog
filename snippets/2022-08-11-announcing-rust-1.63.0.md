@@ -4,7 +4,6 @@ date: 2022-08-11
 tags:
   - rust
   - news
-  - good-reading
 ---
 
 Rust team is annoucing 1.63.0 stable today (2022-08-11).
