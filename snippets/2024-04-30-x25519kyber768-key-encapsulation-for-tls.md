@@ -31,5 +31,3 @@ Refs:
 
 - [^chrome124][Feature: X25519Kyber768 key encapsulation for TLS](https://chromestatus.com/feature/5257822742249472)
 - [^pq2origin][Cloudflare now uses post-quantum cryptography to talk to your origin server](https://blog.cloudflare.com/post-quantum-to-origins)
-
-<!-- - zh-cn [谷歌抗量子加密惹祸，大量防火墙TLS连接中断](https://www.secrss.com/articles/65710) -->
