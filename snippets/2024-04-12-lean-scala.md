@@ -45,4 +45,4 @@ which I thought is really underrated.
 
 Refs:
 
-1. [^lean][Lean Scala](https://odersky.github.io/blog/2024-04-11-post.html)
+[^lean]: [Lean Scala](https://odersky.github.io/blog/2024-04-11-post.html)

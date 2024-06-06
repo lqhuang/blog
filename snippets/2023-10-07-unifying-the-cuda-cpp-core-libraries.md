@@ -22,5 +22,6 @@ relaxy and makes everything robuster.
 Refs:
 
 - [NVIDIA/cccl](https://github.com/NVIDIA/cccl): CUDA C++ Core Libraries
-- [^unifying][Unifying the CUDA C++ Core Libraries: Towards a More Delightful CUDA C++ #520](https://github.com/NVIDIA/cccl/discussions/520)
 - [Bundle CCCL in CuPy #7851](https://github.com/cupy/cupy/pull/7851)
+
+[^unifying]: [Unifying the CUDA C++ Core Libraries: Towards a More Delightful CUDA C++ #520](https://github.com/NVIDIA/cccl/discussions/520)

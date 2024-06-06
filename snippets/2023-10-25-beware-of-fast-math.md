@@ -25,7 +25,5 @@ unfortunate downstream effects fast-math would bring to you.
 
 Ref:
 
-- [^simon]
-  [Simon's notes - Beware of fast-math](https://simonbyrne.github.io/notes/fastmath/)
-- [^giordano]
-  [What’s going on with exp() and –math-mode=fast?](https://discourse.julialang.org/t/whats-going-on-with-exp-and-math-mode-fast/64619/7)
+[^simon]: [Simon's notes - Beware of fast-math](https://simonbyrne.github.io/notes/fastmath/)
+[^giordano]: [What’s going on with exp() and –math-mode=fast?](https://discourse.julialang.org/t/whats-going-on-with-exp-and-math-mode-fast/64619/7)
