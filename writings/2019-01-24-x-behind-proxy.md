@@ -1,23 +1,27 @@
 ---
-title: "X Behind Proxy"
+title: X Behind Proxy
 created: 2019-01-24
 updated: 2023-02-26
-tags: ["shell", "linux", "dev", "today-i-learn"]
+tags:
+  - linux
+  - dev
+  - til
 ---
 
-操蛋的 Firewall
-
-本文主要介绍不同环境和软件下如何配置正向代理 (forward proxy)
+This article shows how to configure a forward proxy in different environments
+and software. 😭
 
 ## Environment variables in unix-like system
 
 Add following lines into your `~/.bashrc` or `~/.zshrc`
 
-    export http_proxy=http://username@password:localhost:8118
-    export https_proxy=http://username@password:localhost:8118
-    # 172.16.0.0/12 means address range from 172.16.x.x to 172.31.x.x
-    export no_proxy="localhost, 127.0.0.1, 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16"
-    # export no_proxy="::1,fd00::/8" # https://en.wikipedia.org/wiki/Private_network
+```sh
+export http_proxy=http://username@password:localhost:8118
+export https_proxy=http://username@password:localhost:8118
+# 172.16.0.0/12 means address range from 172.16.x.x to 172.31.x.x
+export no_proxy="localhost, 127.0.0.1, 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16"
+# export no_proxy="::1,fd00::/8" # https://en.wikipedia.org/wiki/Private_network
+```
 
 ## APT package manager in Debian/Ubuntu
 
@@ -35,7 +39,9 @@ In some releases sudo is configured in such a way that all environment variables
 all cleared when running the command. To keep the value for your http_proxy and
 fix this, you need to edit `/etc/sudoers`, run:
 
-    visudo
+```sh
+visudo
+```
 
 Then find a line that states:
 
@@ -47,9 +53,8 @@ and add after it:
 
 Things will start working as expected.
 
-In order to not only fix apt-get but also graphical X11 utils as e.g
-synaptic,mintintall, ...) the following line in `/etc/sudoers` should do the job
-:
+In order to not only fix apt-get but also graphical X11 utils as (e.g synaptic,
+mintintall, ...), the following line in `/etc/sudoers` should do the job :
 
     Defaults env_keep = "http_proxy https_proxy ftp_proxy DISPLAY XAUTHORITY"
 
@@ -57,32 +62,36 @@ synaptic,mintintall, ...) the following line in `/etc/sudoers` should do the job
 
 via cli:
 
-    ssh USER@DEST -o "ProxyCommand=nc -X connect -x PROXYHOST:PROXYPORT %h %p"
+```sh
+ssh USER@DEST -o "ProxyCommand=nc -X connect -x PROXYHOST:PROXYPORT %h %p"
+```
 
 edit `~/.ssh/config`:
 
-    Host github.com
-        HostName  github.com
-        User      git
-        Port      22
-        # ProxyCommand=nc -X connect -x PROXYHOST:PROXYPORT %h %p
-        ProxyCommand ncat --proxy 127.0.0.1:1080 %h %pssh-err.log
-        ServerAliveInterval 30
-        IdentityFile ~\.ssh\github_key
-        ForwardX11 yes
+```ssh-config
+Host github.com
+    HostName  github.com
+    User      git
+    Port      22
+    # ProxyCommand=nc -X connect -x PROXYHOST:PROXYPORT %h %p
+    ProxyCommand ncat --proxy 127.0.0.1:1080 %h %pssh-err.log
+    ServerAliveInterval 30
+    IdentityFile ~\.ssh\github_key
+    ForwardX11 yes
 
-    # Inside the firewall
-    Host *
-        ProxyCommand nc -X connect -x PROXYHOST:PROXYPORT %h %p
-        ServerAliveInterval 30
-        ## Speed up SSH session creation
-        ## by sharing multiple sessions over a single network connection
-        ## reuse already established TCP connection
-        # ControlMaster auto  # enables the sharing of multiple sessions over a single network connection.
-        # ControlPath ~/.ssh/sockets/%r@%h-%p  # defines a path to the control socket used for connection sharing.
-        # ControlPersist 600  # if used together with ControlMaster, tells ssh to keep the master connection open in the background (waiting for future client connections) once the initial client connection has been closed.
-        ## macOS Sierra - add passphrases to keychain
-        # UseKeychain yes
+# Inside the firewall
+Host *
+    ProxyCommand nc -X connect -x PROXYHOST:PROXYPORT %h %p
+    ServerAliveInterval 30
+    ## Speed up SSH session creation
+    ## by sharing multiple sessions over a single network connection
+    ## reuse already established TCP connection
+    # ControlMaster auto  # enables the sharing of multiple sessions over a single network connection.
+    # ControlPath ~/.ssh/sockets/%r@%h-%p  # defines a path to the control socket used for connection sharing.
+    # ControlPersist 600  # if used together with ControlMaster, tells ssh to keep the master connection open in the background (waiting for future client connections) once the initial client connection has been closed.
+    ## macOS Sierra - add passphrases to keychain
+    # UseKeychain yes
+```
 
 Ref:
 
@@ -93,19 +102,19 @@ Ref:
 
 1. Using environment variables `JAVA_OPTS` or `SBT_OPTS`:
 
-```
+```sh
 export JAVA_OPTS="$JAVA_OPTS -Dhttp.proxyHost=yourserver -Dhttp.proxyPort=8080 -Dhttp.proxyUser=username -Dhttp.proxyPassword=password"
 ```
 
 2. Set when call:
 
-```
+```sh
 sbt -Dhttps.proxyHost=yourserver -Dhttps.proxyPort=8080
 ```
 
 3. Edit `sbt/sbtconfig.txt`:
 
-```
+```sh
 -Dhttp.proxyHost=PROXYHOST
 -Dhttp.proxyPort=PROXYPORT
 -Dhttp.proxyUser=USERNAME
@@ -138,7 +147,9 @@ docker run \
 
 To verify if the configuration is working, start a container and print its env:
 
-    docker run --rm busybox env
+```sh
+docker run --rm busybox env
+```
 
 Ref:
 
@@ -182,7 +193,7 @@ settings, you need to add this configuration in the Docker systemd service file.
 
 1. Create a systemd drop-in directory for the docker service:
 
-```
+```sh
 sudo mkdir -p /etc/systemd/system/docker.service.d
 ```
 
@@ -194,26 +205,26 @@ sudo mkdir -p /etc/systemd/system/docker.service.d
 
 that adds the `HTTP_PROXY` environment variable:
 
-```
+```systemd
 [Service]
 Environment="HTTP_PROXY=http://proxy.example.com:80/" "HTTPS_PROXY=https://proxy.example.com:443/" "NO_PROXY=localhost,127.0.0.1,docker-registry.example.com,.corp"
 ```
 
 3. Flush changes:
 
-```
+```sh
 sudo systemctl daemon-reload
 ```
 
 4. Restart Docker:
 
-```
+```sh
 sudo systemctl restart docker
 ```
 
 5. Verify that the configuration has been loaded:
 
-```
+```sh
 systemctl show --property=Environment docker
 ```
 
@@ -227,8 +238,10 @@ environment variables there works. On Ubuntu, that's done automatically for you
 by Settings -> Network -> Network proxy, so as long as you restart snapd after
 changing that file you should be set.
 
-    http_proxy=http://PROXYHOST:PORT
-    https_proxy=http://PROXYHOST:PORT
+```sh
+http_proxy=http://PROXYHOST:PORT
+https_proxy=http://PROXYHOST:PORT
+```
 
 Second one, create a drop-in configuration for `snapd.service`
 
@@ -236,13 +249,17 @@ Second one, create a drop-in configuration for `snapd.service`
 
 Add in the following:
 
-    [Service]
-    Environment=http_proxy=http://proxy:port
-    Environment=https_proxy=http://proxy:port
+```systemd
+[Service]
+Environment=http_proxy=http://proxy:port
+Environment=https_proxy=http://proxy:port
+```
 
 After execute one of two options, restart service to apply changes,
 
-    sudo systemctl restart snapd
+```sh
+sudo systemctl restart snapd
+```
 
 Ref:
 
@@ -281,5 +298,4 @@ IPv4:
 - [comwrg/package-manager-proxy-settings](https://github.com/comwrg/package-manager-proxy-settings):
   记录各个包管理器代理设置坑点。
 - [eryajf/Thanks-Mirror](https://github.com/eryajf/Thanks-Mirror): 整理记录各个
-  包管理器，系统镜像，以及常用软件的好用镜像，Thanks Mirror。 走过路过，如觉不错
-  ，麻烦点个赞 👆🌟
+  包管理器，系统镜像，以及常用软件的好用镜像，Thanks Mirror。
