@@ -15,6 +15,7 @@ Even more, there is also another solution that is creating an individual Python 
 
 Useful flag for `matlab` command:
 
+```console
     -nodisplay              - Do not display any X commands. The MATLAB
                               desktop will not be started. However, unless
                               -nojvm is also provided the Java virtual machine
@@ -37,6 +38,7 @@ Useful flag for `matlab` command:
                               Cannot be combined with -useStartupFolderPref.
     -logfile log            - Make a copy of any output to the command window
                               in file log. This includes all crash reports.
+```
 
 ## Supports and Limitations
 
@@ -74,7 +76,7 @@ If you succeed, that's all, then you can call MATLAB from Python:)
 
 There are two ways to create a MATLAB engine.
 
-First, created directly from Python by calling `start_matlab`.[5]
+First, created directly from Python by calling `start_matlab`. [^start_matlab]
 
 ```python
 import matlab.engine
@@ -92,7 +94,7 @@ eng = matlab.engine.start_matlab("-nojvm -r 'format short'")
 
 Call `eng.quit()` to stop engine. If you exit Python with an engine still running, then Python automatically stops the engine and its MATLAB process.
 
-Second, create from MATLAB itself.[6]
+Second, create from MATLAB itself. [^connect]
 
 > You can connect the MATLAB® Engine for Python® to a shared MATLAB session that is already running on your local machine. You also can connect to multiple shared MATLAB sessions from a single Python session. You can share a MATLAB session at any time during the session, or at start with a startup option.
 
@@ -133,7 +135,7 @@ Ok, here is the exact part of how to run MATLAB functions or script inside Pytho
 
 Generally, you just need to call the specific function name which is in searchable namespace of running MATLAB process.
 
-<https://www.mathworks.com/help/matlab/matlab_external/call-matlab-functions-from-python.html>
+Content from <https://www.mathworks.com/help/matlab/matlab_external/call-matlab-functions-from-python.html>:
 
 > ### Return Output Argument from MATLAB Function
 >
@@ -193,12 +195,8 @@ Generally, you just need to call the specific function name which is in searchab
 
 ### Call User Scripts and Functions from Python
 
-The same, run findable functions or scripts in MATLAB workspace.
+The same, run findable functions or scripts in MATLAB workspace. [This example shows how to call a MATLAB® script to compute the area of a triangle from Python®.](https://www.mathworks.com/help/matlab/matlab_external/call-user-script-and-function-from-python.html):
 
-<https://www.mathworks.com/help/matlab/matlab_external/call-user-script-and-function-from-python.html>
-
-> This example shows how to call a MATLAB® script to compute the area of a triangle from Python®.
->
 > In your current folder, create a MATLAB script in a file named `triarea.m`.
 >
 > ```matlab
@@ -243,10 +241,8 @@ The same, run findable functions or scripts in MATLAB workspace.
 
 ### Call MATLAB Functions Asynchronously from Python
 
-<https://www.mathworks.com/help/matlab/matlab_external/call-matlab-functions-asynchronously-from-python.html>
+[This example shows how to call the MATLAB sqrt function asynchronously from Python and retrieve the square root later.](https://www.mathworks.com/help/matlab/matlab_external/call-matlab-functions-asynchronously-from-python.html):
 
-> This example shows how to call the MATLAB® sqrt function asynchronously from Python® and retrieve the square root later.
->
 > The engine calls MATLAB functions synchronously by default. Control returns to Python only when the MATLAB function finishes. But the engine also can call functions asynchronously. Control immediately returns to Python while MATLAB is still executing the function. The engine stores the result in a Python variable that can be inspected after the function finishes.
 >
 > Use the background argument to call a MATLAB function asynchronously.
@@ -270,7 +266,7 @@ The same, run findable functions or scripts in MATLAB workspace.
 >
 > To stop execution of the function before it finishes, call `future.cancel()`.
 
-### Bonus: Get Help for MATLAB Functions from Python[8]
+### Bonus: Get Help for MATLAB Functions from Python [^get-mat-func]
 
 If you don't know the detail input arguments of MATLAB functions, you also can get help documents in python.
 
@@ -301,7 +297,7 @@ eng.help("erf", nargout=0)
 
 Basic scalar types (int, float, string, bool, ...) are simply automatic. MATLAB and Python will convert the data into equivalent data types followed given rules. You can check detailed mapping tables [Pass Data to MATLAB from Python](https://www.mathworks.com/help/matlab/matlab_external/pass-data-to-matlab-from-python.html) and [Handle Data Returned from MATLAB to Python](https://www.mathworks.com/help/matlab/matlab_external/handle-data-returned-from-matlab-to-python.html) for these basic scalar types.
 
-But if you want to manipulate arrays or matrix between MATLAB and Python, you need to construct these data types by yourself[9].
+But if you want to manipulate arrays or matrix between MATLAB and Python, you need to construct these data types by yourself [^matarr2pyvar].
 
 > You can create MATLAB numeric arrays in a Python session by calling constructors from the matlab Python package (for example, `matlab.double`, `matlab.int32`). The name of the constructor indicates the MATLAB numeric type.
 >
@@ -340,7 +336,7 @@ print(A[0][1:4])
 # [2,3,4]
 ```
 
-> Note
+> [!NOTE]
 >
 > Slicing MATLAB arrays behaves differently from slicing a Python `list`. Slicing a MATLAB array returns a view instead of a shallow copy.
 >
@@ -385,7 +381,7 @@ print(A)
 # [[1,2,30,40,5,6,70,80]]
 ```
 
-Besides, simple array data (aka sequence data) is also native supported without explicit conversion. This example[10] shows passing a list array as the input argument to the MATLAB `sqrt` function.
+Besides, simple array data (aka sequence data) is also native supported without explicit conversion. This example [^matarr-in-py] shows passing a list array as the input argument to the MATLAB `sqrt` function.
 
 ```python
 import matlab.engine
@@ -413,13 +409,14 @@ for x in a: print(x)
 
 ## References
 
-1. [Calling MATLAB from Python](https://www.mathworks.com/help/matlab/matlab-engine-for-python.html)
-2. [Python Package Integration](https://www.mathworks.com/help/compiler_sdk/python_packages.html)
-3. [Cheat Sheets for Using MATLAB with Python](https://www.mathworks.com/campaigns/offers/matlab-python-cheat-sheets.html)
-4. [Install MATLAB Engine API for Python](https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html)
-5. [Start and Stop MATLAB Engine for Python](https://www.mathworks.com/help/matlab/matlab_external/start-the-matlab-engine-for-python.html)
-6. [Connect Python to Running MATLAB Session](https://www.mathworks.com/help/matlab/matlab_external/connect-python-to-running-matlab-session.html)
-7. [Call User Scripts and Functions from Python](https://www.mathworks.com/help/matlab/matlab_external/call-user-script-and-function-from-python.html)
-8. [Get Help for MATLAB Functions from Python](https://www.mathworks.com/help/matlab/matlab_external/get-help-for-matlab-functions-from-python.html)
-9. [MATLAB Arrays as Python Variables](https://www.mathworks.com/help/matlab/matlab_external/matlab-arrays-as-python-variables.html)
-10. [Use MATLAB Arrays in Python](https://www.mathworks.com/help/matlab/matlab_external/use-matlab-arrays-in-python.html)
+- [Calling MATLAB from Python](https://www.mathworks.com/help/matlab/matlab-engine-for-python.html)
+- [Python Package Integration](https://www.mathworks.com/help/compiler_sdk/python_packages.html)
+- [Cheat Sheets for Using MATLAB with Python](https://www.mathworks.com/campaigns/offers/matlab-python-cheat-sheets.html)
+- [Install MATLAB Engine API for Python](https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html)
+- [Call User Scripts and Functions from Python](https://www.mathworks.com/help/matlab/matlab_external/call-user-script-and-function-from-python.html)
+
+[^start_matlab]: [Start and Stop MATLAB Engine for Python](https://www.mathworks.com/help/matlab/matlab_external/start-the-matlab-engine-for-python.html)
+[^connect]: [Connect Python to Running MATLAB Session](https://www.mathworks.com/help/matlab/matlab_external/connect-python-to-running-matlab-session.html)
+[^get-mat-func]: [Get Help for MATLAB Functions from Python](https://www.mathworks.com/help/matlab/matlab_external/get-help-for-matlab-functions-from-python.html)
+[^matarr2pyvar]: [MATLAB Arrays as Python Variables](https://www.mathworks.com/help/matlab/matlab_external/matlab-arrays-as-python-variables.html)
+[^matarr-in-py]: [Use MATLAB Arrays in Python](https://www.mathworks.com/help/matlab/matlab_external/use-matlab-arrays-in-python.html)

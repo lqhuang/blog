@@ -18,7 +18,7 @@ Then I just realized that the NumPy 2.0 is coming. I'm excited to see that.
 Check the [numpy/numpy issue #24300][^np2status] for the latest updates on the
 development status and announcements.
 
-- [^pythonspeed-for-np2][NumPy 2 is coming: preventing breakage, updating your code](https://pythonspeed.com/articles/numpy-2/)
-- [^np2migration][NumPy 2.0 migration guide](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
-- [^np2status][NumPy 2.0 development status & announcements #24300](https://github.com/numpy/numpy/issues/24300)
-- [^np2changelog][NumPy 2.0.0 Release Notes](https://numpy.org/devdocs/release/2.0.0-notes.html)
+[^pythonspeed-for-np2]: [NumPy 2 is coming: preventing breakage, updating your code](https://pythonspeed.com/articles/numpy-2/)
+[^np2migration]: [NumPy 2.0 migration guide](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
+[^np2status]: [NumPy 2.0 development status & announcements #24300](https://github.com/numpy/numpy/issues/24300)
+[^np2changelog]: [NumPy 2.0.0 Release Notes](https://numpy.org/devdocs/release/2.0.0-notes.html)
