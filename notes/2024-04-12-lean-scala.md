@@ -43,6 +43,4 @@ and eco-system.
 For me, I'm still a fan of Scala, and I'm glad to see the progress of Scala 3
 which I thought is really underrated.
 
-Refs:
-
 [^lean]: [Lean Scala](https://odersky.github.io/blog/2024-04-11-post.html)

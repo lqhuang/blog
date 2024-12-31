@@ -9,5 +9,5 @@ tags:
 
 Two awesome cheatsheets for linux and python in the new approaches.
 
-> - [Comprehensive Linux Cheatsheet](https://gto76.github.io/linux-cheatsheet/)
-> - [Comprehensive Python Cheatsheet](https://gto76.github.io/python-cheatsheet/)
+- [Comprehensive Linux Cheatsheet](https://gto76.github.io/linux-cheatsheet/)
+- [Comprehensive Python Cheatsheet](https://gto76.github.io/python-cheatsheet/)

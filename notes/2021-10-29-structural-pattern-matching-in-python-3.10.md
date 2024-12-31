@@ -4,10 +4,8 @@ date: 2021-10-29
 tags:
   - python
   - til
-draft: True
 ---
 
-Sequence of match case
+Notice the sequence of match case if you're using `case` syntax in Python 3.10
 
-- https://benhoyt.com/writings/python-pattern-matching/
-- https://twitter.com/dabeaz/status/1458181263257391104
+Ref: [Structural pattern matching in Python 3.10](https://benhoyt.com/writings/python-pattern-matching/)

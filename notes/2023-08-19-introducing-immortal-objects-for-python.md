@@ -13,4 +13,4 @@ memory and CPU efficiency of handling our requests by reducing copy on writes.
 Refs:
 
 - [Introducing Immortal Objects for Python](https://engineering.fb.com/2023/08/15/developer-tools/immortal-objects-for-python-instagram-meta/)
-- [lqhuang.io Snippet - PEP 683 – Immortal Objects, Using a Fixed Refcount](https://lqhuang.io/snippet/immortal-objects-using-a-fixed-refcount.html)
+- [lqhuang.io Note - PEP 683 – Immortal Objects, Using a Fixed Refcount](https://lqhuang.io/note/immortal-objects-using-a-fixed-refcount)

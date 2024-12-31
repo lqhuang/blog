@@ -1,5 +1,5 @@
 ---
-title: "`foo`, `bar` and More"
+title: '`foo`, `bar` and More'
 date: 2023-02-03
 tags:
   - dev
@@ -35,4 +35,4 @@ Even more they have fairly well-established "personalities" (or functions):
   passwords
 - Grace -> A government representative
 
-> [Alice and Bob](https://en.wikipedia.org/wiki/Alice_and_Bob)
+Ref: [Alice and Bob](https://en.wikipedia.org/wiki/Alice_and_Bob)

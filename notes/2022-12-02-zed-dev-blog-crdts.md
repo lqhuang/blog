@@ -4,6 +4,7 @@ date: 2022-12-02
 tags:
   - good-reading
   - dev
+  - crdt
 ---
 
 An animation is worth a thousand words.

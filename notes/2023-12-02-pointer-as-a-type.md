@@ -41,10 +41,6 @@ and DO NOT
 int* foo, bar;
 ```
 
----
-
-Refs:
-
 [^src]: [Origin thread from @rsms](https://twitter.com/rsms/status/1730466033897730550)
 [^eaton]: [Comment from @eatonphil](https://twitter.com/eatonphil/status/1730549092239978794)
 [^rsms]: [Comment from @rsms](https://twitter.com/rsms/status/1730478285208105062)
