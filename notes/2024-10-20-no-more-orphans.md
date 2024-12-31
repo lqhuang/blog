@@ -6,9 +6,7 @@ tags:
   - dev
 ---
 
-- [No More Orphans](https://blog.7mind.io/no-more-orphans)
-
-Recently, I read a blog post about the orphan import statement in Scala. It's quite interesting to read because I also have the same feeling about the import statement in Scala.
+Recently, I read a blog post about the orphan[^no-more-orphans] import statement in Scala. It's quite interesting to read because I also have the same feeling about the import statement in Scala.
 
 But I today I want to talk about the import statement in Scala.
 
@@ -30,6 +28,11 @@ What I only accept is implcit or prelude import like `import cats._` or `import 
 
 And I strongly suggest libraries maintainers to write what would happen while import above import statement. It's not hard to write a comment above the import statement.
 
-eplicit import is a code smell like Python zen
+Eplicit import is a pretty code smell like Python Zen[^python-zen] says:
 
-eplicit is better than implicit
+```
+Explicit is better than implicit.
+```
+
+[^no-more-orphans]: [No More Orphans](https://blog.7mind.io/no-more-orphans)
+[^python-zen]: [The Zen of Python](https://peps.python.org/pep-0020/)
