@@ -9,6 +9,6 @@ tags:
 
 Today, let's enjoy anotehr (previous one is
 [here](./2022-12-02-zed-dev-blog-crdts.md)) amazing interactive visualization of
-CRDTs
+CRDTs[^ani-crdts].
 
-- [An Interactive Intro to CRDTs](https://jakelazaroff.com/words/an-interactive-intro-to-crdts/)
+[^ani-crdts]: [An Interactive Intro to CRDTs](https://jakelazaroff.com/words/an-interactive-intro-to-crdts/)

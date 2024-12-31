@@ -30,8 +30,6 @@ Armin's prediction.
 PS: I'm also planning a framework inspired from Actor model for multithreading
 Python. Working on that 😭.
 
-Refs:
-
 [^article]: [Real Multithreading is Coming to Python - Learn How You Can Use It Now](https://martinheinz.dev/blog/97)
 [^tweet-simonw]: [Tweet status from @simonw](https://twitter.com/simonw/status/1658200421553553408)
 [^tweet-mitsuhiko]: [Tweet status from @mitsuhiko](https://twitter.com/mitsuhiko/status/1645747519782092806)

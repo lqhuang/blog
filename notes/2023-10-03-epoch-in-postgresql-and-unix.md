@@ -6,5 +6,4 @@ tags:
   - dev
 ---
 
-Today I got to use my #ObscureKnowledge that the system epoch (1970-01-01) is
-not the same as the @PostgreSQL epoch (2000-01-01) to help someone squash a bug.
+Today I got to update my `#ObscureKnowledge` that the system epoch (1970-01-01) is not the same as the @PostgreSQL epoch (2000-01-01) to help someone squash a bug.

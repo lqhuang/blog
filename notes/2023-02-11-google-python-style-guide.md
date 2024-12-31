@@ -6,9 +6,7 @@ tags:
   - dev
 ---
 
-许久不看 Google Python Style Guide, 里面推荐的 indentation 已经 2 spaces 改到 4
-spaces 了 😅 还自己开发了 PyInk 补充 Black, 另外也随着 Python 引入的新功能更新了
-一些有意思的内容 🤗
+许久不看 Google Python Style Guide [^google-pyguide], 里面推荐的 indentation 已经 2 spaces 改到 4 spaces 了 😅 还自己开发了 PyInk[^pyink] 补充 Black, 另外也随着 Python 引入的新功能更新了一些有意思的内容 🤗
 
 ```python
 class A:
@@ -24,4 +22,5 @@ class A:
 什么, 真正的逻辑代码就已经不知道缩进到哪里去了, 在 Python 里使用 2 spaces 好像我
 又可以了...
 
-> [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+[^google-pyguide]: [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+[^pyink]: [google/pyink](https://github.com/google/pyink): Pyink, pronounced pī-ˈiŋk, is a Python formatter, forked from Black with a few different formatting behaviors.

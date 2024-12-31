@@ -6,7 +6,7 @@ tags:
   - dev
 ---
 
-WIP
+Some "corner" cases in Python pattern matching syntax:
 
 ```python
 match obj:

@@ -15,13 +15,12 @@ language features, for user-friendly toolchains. Acutely, Kindly and Sharply.
 Here are some notes about what ecosystem matters in Scala? @rssh, @alexelcu,
 @dspiewak, even @odersky commented to talk about their thoughts.
 
-@rssh and @odersky both thought effect system is all of Scala, @alexelcu 和
-@dspiewak 认为 Effect System 是现在 Scala 生态中最为重要的一环.
+@rssh and @odersky both thought effect system is all of Scala, @alexelcu and
+@dspiewak consider Effect System is almost the most important one of Scala eco system.
 
-Damn, They're all right. 他们不是矛盾的, 他们只是从不同的角度看到了不同的东西,
-这就是一体多面性吗.
+They are all right, and they are not contradictory. They just see different things from different perspectives.
 
-有一个非常值得注意的观点是
+One very noteworthy point is
 
 > Pure Scala implementation with different backend
 
@@ -30,13 +29,11 @@ Probably, I don't have too much experience in maintaining large legacy codes, I
 still support new features or aggresive changes, even research-orient
 experiments.
 
-But I also know the importance of eco-system and killer applications. AKKA 更改
-Liscense 的事件极大降低了 Big company 对 Scala 的信心和吸引力.
+But I also know the importance of the ecosystem and killer applications. The AKKA license change significantly reduced the confidence and attractiveness of Scala to big giants (or not?).
 
-Martin 作为 BDFL, 在 Martin 退休以后, Scala 如何发展依然是不明确的.
+As the BDFL, Martin's upcoming retirement leaves the future development of Scala uncertain. Personally, I hope Scala continues to grow and does not become a niche language.
 
-个人私心还是希望 Scala 更好, 不要成为小众的 niche. But the problem is how to
-Make Scala Great Again?
+<!-- But the problem is how to Make Scala Great Again? -->
 
 Refs:
 
