@@ -2,8 +2,9 @@
 title: Best practices for writing code comments
 date: 2022-01-04
 tags:
-  - coding
-  - tutorial
+  - til
+  - insight
+  - dev
 ---
 
 Good rules for writting comments

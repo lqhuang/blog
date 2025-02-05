@@ -1,7 +1,9 @@
 ---
 title: "Rain's Rust CLI recommendations"
 date: 2022-01-23
-tags: ["rust", "cli"]
+tags:
+  - rust
+  - cli
 ---
 
 Prefer to use `clap` with the `derive` feature. Try `argh`, `pico-args` for

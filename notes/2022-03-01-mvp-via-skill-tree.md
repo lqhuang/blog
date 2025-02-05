@@ -1,7 +1,9 @@
 ---
-title: "Design MVP with skill tree"
+title: 'Design MVP with skill tree'
 date: 2022-03-01
-tags: ["insights", "dev"]
+tags:
+  - insight
+  - dev
 ---
 
 通过 MVP 和 Skill Tree 去构造产品和分析未来的产品趋势.

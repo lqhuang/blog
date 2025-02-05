@@ -2,7 +2,7 @@
 title: Fly.io Gossip Glomers
 date: 2023-02-26
 tags:
-  - distributed-systems
+  - distsys
   - dev
 ---
 

@@ -1,9 +1,9 @@
 ---
-title: "Cheatsheet: Write Multiple Lines Content in YAML"
+title: 'Cheatsheet: Write Multiple Lines Content in YAML'
 date: 2022-05-31
 tags:
   - dev
-  - tips
+  - til
 ---
 
 It's crazy that there are NINE different ways to write multi-line strings in

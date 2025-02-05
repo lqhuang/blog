@@ -2,7 +2,6 @@
 title: io_uring and seccomp
 date: 2024-10-13
 tags:
-  - io_uring
   - system-programming
 ---
 
