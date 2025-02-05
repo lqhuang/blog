@@ -1,7 +1,9 @@
 ---
-title: "Useful Tool: command-to-found.com"
+title: 'Useful Tool: command-to-found.com'
 date: 2022-01-22
-tags: ["cli", "tools"]
+tags:
+  - cli
+  - tools
 ---
 
 Finally I found this helper to locate detailed package when you got "command not

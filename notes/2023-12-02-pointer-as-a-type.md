@@ -3,7 +3,7 @@ title: Pointer as a Type or Different Roles of the Asterisk in Clang
 date: 2023-12-02
 tags:
   - clang
-  - discussion
+  - functional-programming
 ---
 
 Which style do you prefer to declare a variable in C?

@@ -5,7 +5,7 @@ title:
 date: 2023-05-07
 tags:
   - scala
-  - discussion
+  - commentary
 ---
 
 Recently, Scala community burst a lot of discussions about the roadmap of Scala

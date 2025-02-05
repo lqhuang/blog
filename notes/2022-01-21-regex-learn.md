@@ -1,7 +1,8 @@
 ---
-title: "Useful Tool: RegexLearn"
+title: 'Useful Tool: RegexLearn'
 date: 2022-01-21
-tags: ["regex", "product"]
+tags:
+  - regex
 ---
 
 Awesome project to let you learn regex with interactive practices without pains

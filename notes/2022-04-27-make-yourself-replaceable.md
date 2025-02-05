@@ -3,7 +3,7 @@ title: 'Make Yourself Replaceable'
 date: 2022-04-27
 tags:
   - good-reading
-  - insights
+  - insight
   - career
 ---
 

@@ -4,7 +4,7 @@ date: 2024-02-10
 tags:
   - svelte
   - dev
-  - insights
+  - insight
 ---
 
 Svelte was born with serveral brazing new and interesting ideas for web

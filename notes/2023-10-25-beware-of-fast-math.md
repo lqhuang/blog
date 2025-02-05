@@ -4,6 +4,7 @@ date: 2023-10-25
 tags:
   - til
   - system-programming
+  - clang
 ---
 
 fast-math is a set of compiler flags that enables a series of optimizations for

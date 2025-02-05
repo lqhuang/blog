@@ -3,7 +3,7 @@ title: "You Are What You Read, Even If You Don’t Always Remember It"
 date: 2024-06-21
 tags:
   - good-reading
-  - insights
+  - insight
 ---
 
 Thanks to Jim Nielsen for sharing his experiences [^you-are-what-you-read].
