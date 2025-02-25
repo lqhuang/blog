@@ -32,10 +32,10 @@ Moreover, another group member shared a computer scientist version of this wisdo
 
 Refs:
 
-[^ask2ask] [Don't ask to ask, just ask](https://dontasktoask.com/)
-[^xy-info] [The XY Problem](https://xyproblem.info/)
-[^xy-meta] [What is the XY problem? - Meta Stack Exchange](https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem)
-[^xy-wooledge] [XyProblem](https://mywiki.wooledge.org/XyProblem)
-[^nohello] [no hello](https://nohello.net/en/): please don't say just hello in chat
-[^how-sf] [How do I ask a good question?](https://stackoverflow.com/help/how-to-ask)
-[^how-esr] [How To Ask Questions The Smart Way | Eric Steven Raymond](http://www.catb.org/esr/faqs/smart-questions.html)
+[^ask2ask]: [Don't ask to ask, just ask](https://dontasktoask.com/)
+[^xy-info]: [The XY Problem](https://xyproblem.info/)
+[^xy-meta]: [What is the XY problem? - Meta Stack Exchange](https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem)
+[^xy-wooledge]: [XyProblem](https://mywiki.wooledge.org/XyProblem)
+[^nohello]: [no hello](https://nohello.net/en/): please don't say just hello in chat
+[^how-sf]: [How do I ask a good question?](https://stackoverflow.com/help/how-to-ask)
+[^how-esr]: [How To Ask Questions The Smart Way | Eric Steven Raymond](http://www.catb.org/esr/faqs/smart-questions.html)

@@ -1,5 +1,5 @@
 ---
-title: "GitHub Introduces New Alerts Syntax"
+title: 'GitHub Introduces New Alerts Syntax'
 date: 2023-08-27
 tags:
   - dev
@@ -18,17 +18,27 @@ syntax which you probably have knew yet from other sources.
 > alerts are available:
 >
 > ```markdown
-> > [!NOTE] Useful information that users should know, even when skimming
+> > [!NOTE]
+> >
+> > Useful information that users should know, even when skimming
 > > content.
 >
-> > [!TIP] Helpful advice for doing things better or more easily.
+> > [!TIP]
+> >
+> > Helpful advice for doing things better or more easily.
 >
-> > [!IMPORTANT] Key information users need to know to achieve their goal.
+> > [!IMPORTANT]
+> >
+> > Key information users need to know to achieve their goal.
 >
-> > [!WARNING] Urgent info that needs immediate user attention to avoid
+> > [!WARNING]
+> >
+> > Urgent info that needs immediate user attention to avoid
 > > problems.
 >
-> > [!CAUTION] Advises about risks or negative outcomes of certain actions.
+> > [!CAUTION]
+> >
+> > Advises about risks or negative outcomes of certain actions.
 > ```
 
 Besides that, the first time I know GFM could also render colors automatically!
