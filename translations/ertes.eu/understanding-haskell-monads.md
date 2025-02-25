@@ -953,13 +953,13 @@ You can contact me through email (es@ertes.de). If you prefer live chats, you ca
 
 ## References
 
-[^1] [Haskell homepage](http://www.haskell.org/)
+[^1]: [Haskell homepage](http://www.haskell.org/)
 – The homepage of the Haskell language.
-[^2] [LogicT package](http://hackage.haskell.org/cgi-bin/hackage-scripts/package/logict)
+[^2]: [LogicT package](http://hackage.haskell.org/cgi-bin/hackage-scripts/package/logict)
 – A package for logic programming in backtracking monads (contains a transformer variant of the list monad).
-[^3] [MaybeT package](http://hackage.haskell.org/cgi-bin/hackage-scripts/package/MaybeT)
+[^3]: [MaybeT package](http://hackage.haskell.org/cgi-bin/hackage-scripts/package/MaybeT)
 – The transformer variant MaybeT of Maybe, unfortunately missing in the monad transformer library.
-[^4] [A tour of the Haskell Monad functions](http://members.chello.nl/hjgtuyl/tourdemonad.html)
+[^4]: [A tour of the Haskell Monad functions](http://members.chello.nl/hjgtuyl/tourdemonad.html)
 – A comprehensive tour of the library functions for monads, together with usage examples.
-[^5] [Abstraction, intuition, and the "monad tutorial fallacy"](http://byorgey.wordpress.com/2009/01/12/abstraction-intuition-and-the-monad-tutorial-fallacy/)
+[^5]: [Abstraction, intuition, and the "monad tutorial fallacy"](http://byorgey.wordpress.com/2009/01/12/abstraction-intuition-and-the-monad-tutorial-fallacy/)
 – Brent Yorgey's view on why writing yet another monad tutorial won't help newcomers a lot. Very interesting.
