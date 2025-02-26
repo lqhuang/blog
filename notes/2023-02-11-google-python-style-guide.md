@@ -18,7 +18,7 @@ class A:
                 ...
 ```
 
-但是因为 Python 里 pattern matching 的语法过于~~优雅 ~~繁琐, 4 spaces 下随便写点
+但是因为 Python 里 pattern matching 的语法过于<del>优雅</del>繁琐, 4 spaces 下随便写点
 什么, 真正的逻辑代码就已经不知道缩进到哪里去了, 在 Python 里使用 2 spaces 好像我
 又可以了...
 

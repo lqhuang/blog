@@ -29,5 +29,4 @@ The bad part of how cloud services change the way of programming:
 >
 > --- Donald Knuth
 
-Ref:
-[The cloudy layers of modern-day programming](https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/)
+Src: [The cloudy layers of modern-day programming](https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/)

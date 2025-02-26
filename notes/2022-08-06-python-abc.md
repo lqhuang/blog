@@ -15,6 +15,5 @@ Today, I learn some wired tricks in Python's pattern matching :lol:
 > 2. If `obj` is a transitive subtype of `class`
 > 3. If `class` is an ABC and defines a `__subclasshook__` that matches the type
 >    of `obj`.
->
-> Ref:
-> [Crimes with Python's Pattern Matching](https://www.hillelwayne.com/post/python-abc/)
+
+Src: [Crimes with Python's Pattern Matching](https://www.hillelwayne.com/post/python-abc/)

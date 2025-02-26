@@ -8,4 +8,4 @@ tags:
 
 Notice the sequence of match case if you're using `case` syntax in Python 3.10
 
-Ref: [Structural pattern matching in Python 3.10](https://benhoyt.com/writings/python-pattern-matching/)
+Src: [Structural pattern matching in Python 3.10](https://benhoyt.com/writings/python-pattern-matching/)

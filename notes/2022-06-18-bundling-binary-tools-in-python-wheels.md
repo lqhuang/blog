@@ -22,11 +22,9 @@ Another two cents:
   target with different `glibc` (eg: `-target x86_64-linux-gnu.2.28`,
   `-target x86_64-linux-musl`). Pretty good that host and target are decoupled.
 
-Ref:
-
-- [Bundling binary tools in Python wheels](https://simonwillison.net/2022/May/23/bundling-binary-tools-in-python-wheels)
+Src: [Bundling binary tools in Python wheels](https://simonwillison.net/2022/May/23/bundling-binary-tools-in-python-wheels)
 
 Further readings:
 
 - [How Uber Uses Zig](https://jakstys.lt/2022/how-uber-uses-zig/)
-- [`zig cc`: a Powerful Drop-In Replacement for GCC/Clang](https://andrewkelley.me/post/zig-cc-powerful-drop-in-replacement-gcc-clang.html)
+- [\`zig cc\`: a Powerful Drop-In Replacement for GCC/Clang](https://andrewkelley.me/post/zig-cc-powerful-drop-in-replacement-gcc-clang.html)

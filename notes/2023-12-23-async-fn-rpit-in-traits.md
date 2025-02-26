@@ -15,5 +15,5 @@ and released with version 1.75.0.
 
 Refs:
 
-- [Announcing `async fn` and return-position `impl Trait` in traits](https://blog.rust-lang.org/2023/12/21/async-fn-rpit-in-traits.html)
+- [Announcing \`async fn\` and return-position \`impl Trait\` in traits](https://blog.rust-lang.org/2023/12/21/async-fn-rpit-in-traits.html)
 - [Some recent and notable changes to Rust](https://lwn.net/Articles/954033/)

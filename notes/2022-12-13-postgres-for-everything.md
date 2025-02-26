@@ -1,6 +1,5 @@
 ---
-title:
-  Just Use Postgres for Everything -- how to reduce complexity and move faster
+title: Just Use Postgres for Everything -- how to reduce complexity and move faster
 date: 2022-12-13
 tags:
   - dev
@@ -28,5 +27,4 @@ This's why I always love Postgres in small scale projects.
 >
 > -- Stephan Schmidt
 
-Ref:
-[Just Use Postgres for Everything ](https://www.amazingcto.com/postgres-for-everything/)
+Src: [Just Use Postgres for Everything ](https://www.amazingcto.com/postgres-for-everything/)

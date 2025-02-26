@@ -16,5 +16,4 @@ articles.
 
 old, but still useful.
 
-Ref:
-[Writing Technical Articles](https://www.cs.columbia.edu/~hgs/etc/writing-style.html)
+Src: [Writing Technical Articles](https://www.cs.columbia.edu/~hgs/etc/writing-style.html)
