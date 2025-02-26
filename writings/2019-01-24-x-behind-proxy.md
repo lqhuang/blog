@@ -93,7 +93,7 @@ Host *
     # UseKeychain yes
 ```
 
-Ref:
+Refs:
 
 1. [Connect with SSH through a proxy](https://stackoverflow.com/questions/19161960/connect-with-ssh-through-a-proxy)
 2. [ssh through authentication requiring proxy](https://unix.stackexchange.com/questions/447780/ssh-through-authentication-requiring-proxy)
@@ -126,7 +126,7 @@ sbt -Dhttps.proxyHost=yourserver -Dhttps.proxyPort=8080
 -Dhttps.proxyPassword=XXXX
 ```
 
-Ref:
+Refs:
 
 1. [How to use sbt from behind proxy?](https://stackoverflow.com/questions/13803459/how-to-use-sbt-from-behind-proxy)
 2. [Java Docs Networking Properties](https://docs.oracle.com/javase/8/docs/api/java/net/doc-files/net-properties.html)
@@ -151,7 +151,7 @@ To verify if the configuration is working, start a container and print its env:
 docker run --rm busybox env
 ```
 
-Ref:
+Refs:
 
 1. [How to configure docker container proxy?](https://stackoverflow.com/questions/47827496/how-to-configure-docker-container-proxy)
 
@@ -176,8 +176,9 @@ automatically within the container.
 }
 ```
 
-Ref:
-[Configure Docker to use a proxy server](https://docs.docker.com/network/proxy/)
+Refs:
+
+- [Configure Docker to use a proxy server](https://docs.docker.com/network/proxy/)
 
 ### docker daemon
 
@@ -228,8 +229,9 @@ sudo systemctl restart docker
 systemctl show --property=Environment docker
 ```
 
-Ref:
-[Control Docker with systemd](https://docs.docker.com/config/daemon/systemd/)
+Refs:
+
+- [Control Docker with systemd](https://docs.docker.com/config/daemon/systemd/)
 
 ## Snap
 
@@ -261,7 +263,7 @@ After execute one of two options, restart service to apply changes,
 sudo systemctl restart snapd
 ```
 
-Ref:
+Refs:
 
 1. [How to install snap packages behind web proxy on Ubuntu 16.04](https://askubuntu.com/questions/764610/how-to-install-snap-packages-behind-web-proxy-on-ubuntu-16-04)
 2. [Snap Store Proxy documentation](https://docs.ubuntu.com/snap-store-proxy/en/)

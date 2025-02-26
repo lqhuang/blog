@@ -14,4 +14,6 @@ like `systemd enable --now xxx.socket` instead of `.service`.
 > for all new-style daemons that communicate via listening sockets to employ
 > socket-based activation.
 
-Ref: [daemon(7) — Linux manual page](https://man7.org/linux/man-pages/man7/daemon.7.html)
+Refs:
+
+- [daemon(7) — Linux manual page](https://man7.org/linux/man-pages/man7/daemon.7.html)

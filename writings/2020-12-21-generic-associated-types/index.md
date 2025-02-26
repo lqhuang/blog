@@ -26,7 +26,7 @@ GATs example:
 
 GATs application
 
-Ref:
+Refs:
 
 1. https://zhuanlan.zhihu.com/p/113067733
 2. https://www.fpcomplete.com/blog/monads-gats-nightly-rust/

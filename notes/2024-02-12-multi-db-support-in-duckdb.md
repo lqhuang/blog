@@ -29,6 +29,4 @@ ATTACH 'mysql:user=root database=mysqlscanner' AS mysql;
 In modern data analysis, data definitely is combined from a wide variety of
 different sources. What a game changer feature.
 
-Ref:
-
-- [Multi-Database Support in DuckDB](https://duckdb.org/2024/01/26/multi-database-support-in-duckdb.html)
+Src: [Multi-Database Support in DuckDB](https://duckdb.org/2024/01/26/multi-database-support-in-duckdb.html)

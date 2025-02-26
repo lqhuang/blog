@@ -16,5 +16,7 @@ That's enough to implement simple SIMD operations in pure Python.
 
 Awesome!
 
+References:
+
 - [SIMD in Pure Python](https://www.da.vidbuchanan.co.uk/blog/python-swar.html)
 - [Bitslicing, An Introduction](https://timtaubert.de/blog/2018/08/bitslicing-an-introduction/)

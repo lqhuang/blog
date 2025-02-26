@@ -18,7 +18,7 @@ has better DX and is real _de facto standard_.
 [^venv]: [Classifying Python virtual environment workflows](https://snarky.ca/classifying-python-virtual-environment-workflows/)
 [^packaging]: [Thoughts on the Python packaging ecosystem](https://pradyunsg.me/blog/2023/01/21/thoughts-on-python-packaging/)
 
-> New supplemental materials (2023-01-27):
->
-> - [PEP 704 – Require virtual environments by default for package installers](https://peps.python.org/pep-0704/)
-> - [pypackaging-native/pypackaging-native](https://github.com/pypackaging-native/pypackaging-native)
+New supplemental materials (updated on 2023-01-27):
+
+- [PEP 704 – Require virtual environments by default for package installers](https://peps.python.org/pep-0704/)
+- [pypackaging-native/pypackaging-native](https://github.com/pypackaging-native/pypackaging-native)

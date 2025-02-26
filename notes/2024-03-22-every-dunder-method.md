@@ -9,5 +9,4 @@ tags:
 A comprehensive reading material of _almost_ all the dunder methods in Python.
 Essential and excellent cheatsheet for advanced Python developers.
 
-Ref:
-[Every dunder method in Python](https://www.pythonmorsels.com/every-dunder-method/)
+Src: [Every dunder method in Python](https://www.pythonmorsels.com/every-dunder-method/)
