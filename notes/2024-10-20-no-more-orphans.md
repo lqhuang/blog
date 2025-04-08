@@ -4,6 +4,7 @@ date: 2024-10-20
 tags:
   - scala
   - dev
+src: https://blog.7mind.io/no-more-orphans
 ---
 
 Recently, I read a blog post about the orphan[^no-more-orphans] import statement in Scala. It's quite interesting to read because I also have the same feeling about the import statement in Scala.

@@ -4,9 +4,8 @@ date: 2024-11-10
 tags:
   - software
 draft: true
+src: https://blog.preyneyv.dev/doing-less-with-more
 ---
-
-https://blog.preyneyv.dev/doing-less-with-more
 
 native application
 

@@ -1,4 +1,4 @@
-After resigning from my last position in December 2024, I have had a lot of ideas and projects emerge in my mind, based on my experiences and observations from the past years.
+After resigning from my last position in Dec 2024, I have had a lot of ideas and projects emerge in my mind, based on my experiences and observations from the past years.
 
 Some of these ideas are just for fun, some are niche ideas without concrete use cases, and some of them may even be incorrect. Nevertheless, I just write them down and try to build them, either publicly or privately (depending on the nature of the projects). I share the progress with people, while also considering my next significant career move (becoming a full-time OSS contributor).
 
@@ -81,15 +81,16 @@ The project Swift for TensorFlow, initiated in the earliest days, featured a dis
 
 In 2018, when Swift4TF was selecting its programming language, the reasons Scala was deemed unsuitable have ceased to exist, thanks to Scala’s evolution and the official release of Dotty. Particularly, the development of Scala Native has expanded Scala’s possibilities significantly.
 
+Actually, there are already awesome machine learning or numberical Scala projects like [sbrunk/storch](https://github.com/sbrunk/storch), [ekrich/sblas](https://github.com/ekrich/sblas), [dragonfly-ai/slash](https://github.com/dragonfly-ai/slash), etc. But still not be adapted well yet.
+
 However, there are still many challenges:
 
 - Essential tooling is missing (like Bazel support for Scala Native) or requires significant improvements
-- The ecosystem is not as mature as Python’s
-- It’s challenging to find a good business model for the project. It’s definitely a "war" with giants in the industry. They contribute substantial resources to develop and verify current tools. If the progress is not good enough and not widely adopted, it’s hard to survive.
+- It’s challenging to find a good sustainable model for the project. It’s definitely a "war" by giants in the industry. They contribute substantial resources to develop and verify current tools. If the progress is not good enough and not widely adopted, it’s hard to survive.
 
 It definitely won’t survive long as a for-fun project. It’s a serious endeavor that requires significant resources and efforts.
 
-The best outcomes would be to become part of some non-profit foundations sponsored by industry giants, or even to raise VC funding.
+The best outcomes would be to become part of some non-profit foundations sponsored by industry giants, or even to raise VC funds.
 
 **Progress**
 

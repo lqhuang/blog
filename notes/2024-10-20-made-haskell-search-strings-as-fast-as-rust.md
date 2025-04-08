@@ -4,6 +4,7 @@ date: 2024-10-20
 tags:
   - haskell
   - algorithm
+src: https://www.channable.com/tech/how-we-made-haskell-search-strings-as-fast-as-rust
 ---
 
 [Channable](https://www.channable.com) shares a post on how they made Haskell search strings as fast as Rust[^haskell-search-strings].

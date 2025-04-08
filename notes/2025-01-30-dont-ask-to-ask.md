@@ -18,8 +18,6 @@ That sounds like a wise proverb! I decided to look it up to learn more about its
 
 Luckily, I found a website called "Don't ask to ask, just ask" [^ask2ask] with clear examples and explanations. Thanks to the author, I can cite it in the future.
 
-Old quotes never die, like XY Problem [^xy-info][^xy-meta][^xy-wooledge], how to ask questions [^how-sf][^how-esr], no hello [^nohello], they are all about how to communicate effectively in a community, especially in a technical community. Everyone should consider them as gems and apply them daily.
-
 Old quotes never die, such as the XY Problem [^xy-info][^xy-meta][^xy-wooledge], how to ask questions [^how-sf][^how-esr], and "no hello" [^nohello]. These all pertain to effective communication in a community, especially in technical circles. Everyone should treasure these principles as gems and apply them in their daily interactions.
 
 Moreover, another group member shared a computer scientist version of this wisdom:
