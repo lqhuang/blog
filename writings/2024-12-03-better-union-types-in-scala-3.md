@@ -67,3 +67,8 @@ And we also have `enum` in Scala 3 now.
 在讨论如何优化 Scala 3 的 Union types 的时候, commetee member 的第一反应是在 JVM 上实现这个问题的 trade off 而不是本身带给用户或者社区的价值.
 
 我当然希望 Scala 3 成为一个更好的语言, 不仅仅是一个 Java 的替代品. not a better Java, not a better Haskell, not a better Python (what I'm working on), but a better Scala. Cheers!
+
+Mar 9, 2025
+
+- https://blog.jle.im/entry/sum-types-and-subtypes-and-unions.html
+- https://blog.jle.im/entry/faking-adts-and-gadts.html
