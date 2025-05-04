@@ -28,8 +28,6 @@ Moreover, another group member shared a computer scientist version of this wisdo
 
 🤣
 
-Refs:
-
 [^ask2ask]: [Don't ask to ask, just ask](https://dontasktoask.com/)
 [^xy-info]: [The XY Problem](https://xyproblem.info/)
 [^xy-meta]: [What is the XY problem? - Meta Stack Exchange](https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem)

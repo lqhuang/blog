@@ -9,7 +9,7 @@ Recent good readings in Python logging and testing:
 
 [Logging in Python like a PRO 🐍🌴](https://guicommits.com/how-to-log-in-python-like-a-pro/)
 
-![Credit to [Monadical blog](https://monadical.com/posts/ins-and-outs-of-logging-in-python-part-one.html)](https://docs.monadical.com/uploads/5fb79fe51e47ca767ab94b61e.png)
+![](https://docs.monadical.com/uploads/5fb79fe51e47ca767ab94b61e.png 'from [Credit to Monadical blog](https://monadical.com/posts/ins-and-outs-of-logging-in-python-part-one.html)')
 
 | Level      | When it’s used                                                                                                                                                         |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
