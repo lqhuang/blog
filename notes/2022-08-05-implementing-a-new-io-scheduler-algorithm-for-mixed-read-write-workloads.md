@@ -1,6 +1,5 @@
 ---
-title:
-  "Implementing a New IO Scheduler Algorithm for Mixed Read/Write Workloads"
+title: 'Implementing a New IO Scheduler Algorithm for Mixed Read/Write Workloads'
 date: 2022-08-05
 tags:
   - system-programming

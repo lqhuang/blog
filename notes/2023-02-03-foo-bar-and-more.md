@@ -15,9 +15,9 @@ what's the next? Here (maybe) is a full list:
 There are all metasyntactic variables (could be referenced from _The Hacker's
 Dictionary_).
 
-> - [Foobar](https://en.wikipedia.org/wiki/Foobar)
-> - [Metasyntactic Variables](https://en.wikipedia.org/wiki/Metasyntactic_variable)
-> - [The Hacker's Dictionary - MIT Press](http://hackersdictionary.com/html/entry/foo.html)
+- [Foobar](https://en.wikipedia.org/wiki/Foobar)
+- [Metasyntactic Variables](https://en.wikipedia.org/wiki/Metasyntactic_variable)
+- [The Hacker's Dictionary - MIT Press](http://hackersdictionary.com/html/entry/foo.html)
 
 Another widely used placeholder is the "Alice" and "Bob". And left succeed
 people have more choices, some common names are

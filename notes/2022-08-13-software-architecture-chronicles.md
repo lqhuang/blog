@@ -1,5 +1,5 @@
 ---
-title: "DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together"
+title: 'DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together'
 date: 2022-08-13
 tags:
   - good-reading
@@ -15,7 +15,7 @@ Architecture, how I think of it, and how I use that knowledge._
 
 > Those who fail to learn History are doomed to repeat it.
 >
-> --- George Santayana, The Life of Reason, 1905
+> -- George Santayana, The Life of Reason, 1905
 
 References:
 

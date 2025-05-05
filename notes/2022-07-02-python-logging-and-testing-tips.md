@@ -26,5 +26,5 @@ are enough to get through to Python logging.
 
 Testing:
 
-> - [My Python testing style guide](https://blog.thea.codes/my-python-testing-style-guide)
-> - [“Don’t Mock What You Don’t Own” in 5 Minutes](https://hynek.me/articles/what-to-mock-in-5-mins)
+- [My Python testing style guide](https://blog.thea.codes/my-python-testing-style-guide)
+- ["Don’t Mock What You Don’t Own" in 5 Minutes](https://hynek.me/articles/what-to-mock-in-5-mins)
