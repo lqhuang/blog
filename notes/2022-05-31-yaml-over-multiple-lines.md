@@ -37,8 +37,8 @@ And this is difference betweetn `"` and `'` in YAML:
 
 Check references for more detailed examples :(
 
-> References:
->
-> 1. [YAML Multiline](https://yaml-multiline.info/)
-> 2. [How do I break a string in YAML over multiple lines?](https://stackoverflow.com/questions/3790454/how-do-i-break-a-string-in-yaml-over-multiple-lines)
-> 3. [YAML: Do I need quotes for strings in YAML?](https://stackoverflow.com/questions/19109912/yaml-do-i-need-quotes-for-strings-in-yaml)
+References:
+
+1. [YAML Multiline](https://yaml-multiline.info/)
+2. [How do I break a string in YAML over multiple lines?](https://stackoverflow.com/questions/3790454/how-do-i-break-a-string-in-yaml-over-multiple-lines)
+3. [YAML: Do I need quotes for strings in YAML?](https://stackoverflow.com/questions/19109912/yaml-do-i-need-quotes-for-strings-in-yaml)

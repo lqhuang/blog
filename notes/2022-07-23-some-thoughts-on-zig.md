@@ -3,7 +3,7 @@ title: Some Thoughts on Zig
 date: 2022-07-23
 tags:
   - good-reading
-  - rust
+  - zig
   - system-programming
 ---
 

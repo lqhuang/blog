@@ -17,4 +17,4 @@ recommendation to author
 Actulally, their name are _Scientific Python Volume I: From Python to Numpy_ and
 _Scientific Python Volume II: Scientific Visualization_
 
-> [From Python to Numpy](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
+- [From Python to Numpy](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)

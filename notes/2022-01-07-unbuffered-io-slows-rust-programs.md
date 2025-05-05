@@ -6,6 +6,7 @@ tags:
   - til
   - python
   - dev
+src: https://era.co/blog/unbuffered-io-slows-rust-programs
 ---
 
 1. Use `strace` and `perf` to count how many syscalls were invoked.
@@ -14,7 +15,7 @@ tags:
 
 > ## Conclusion
 >
-> In this post, we saw that:
+> In this post[^post], we saw that:
 >
 > - System calls in Linux are slower than regular functions
 > - Issuing too many syscalls can have very negative effects on run-time
@@ -23,6 +24,5 @@ tags:
 > - Even experienced programmers can miss these issues
 > - We can use `strace` and `awk` to find if and where unbuffered I/O happens in
 >   our programs
->
-> From:
-> [Unbuffered I/O Can Make Your Rust Programs Much Slower](https://era.co/blog/unbuffered-io-slows-rust-programs)
+
+[^post]: [Unbuffered I/O Can Make Your Rust Programs Much Slower](https://era.co/blog/unbuffered-io-slows-rust-programs)

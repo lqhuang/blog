@@ -1,5 +1,5 @@
 ---
-title: "The Python GIL: Past, Present, and Future"
+title: 'The Python GIL: Past, Present, and Future'
 date: 2022-06-04
 tags:
   - python
@@ -43,7 +43,6 @@ And
 
 Wish the future is coming soon!
 
-> [The Python GIL: Past, Present, and Future -- Barry Warsaw](https://www.backblaze.com/blog/the-python-gil-past-present-and-future/)
->
-> [Faster CPython](https://faster-cpython.readthedocs.io),
-> [Github - faster-cpython](https://github.com/faster-cpython)
+- [The Python GIL: Past, Present, and Future -- Barry Warsaw](https://www.backblaze.com/blog/the-python-gil-past-present-and-future/)
+- [Faster CPython](https://faster-cpython.readthedocs.io),
+- [Github - faster-cpython](https://github.com/faster-cpython)
