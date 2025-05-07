@@ -36,9 +36,11 @@ target "myapp" {
 }
 ```
 
+As the new says:
+
 > You can write Bake files in HCL, YAML (Docker Compose files), or JSON. In general, HCL is the most expressive and flexible format, which is why you'll see it used in most of the examples in this documentation, and in projects that use Bake.
->
-> (Well, I may don't think so =.=)
+
+Well, I may don't think so for the HCL part =.=
 
 [^1]: [Docker Bake is Now Generally Available in Docker Desktop 4.38!](https://www.docker.com/blog/ga-launch-docker-bake/)
 [^2]: [Introduction to Bake](https://docs.docker.com/build/bake/introduction/)
