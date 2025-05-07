@@ -9,9 +9,10 @@ tags:
 > TL,DR: DuckDB can attach MySQL, Postgres, and SQLite databases in addition to
 > databases stored in its own format. This allows data to be read into DuckDB
 > and moved between these systems in a convenient manner.
+>
+> -- [Multi-Database Support in DuckDB](https://duckdb.org/2024/01/26/multi-database-support-in-duckdb.html)
 
-Using the SQLite extension, we can open a SQLite database file and query it as
-we would query a DuckDB database.
+Now, we can open a SQLite database file and query it as we would query a DuckDB database by using the SQLite extension.
 
 ```sql
 ATTACH 'sakila.db' AS sakila (TYPE sqlite);
@@ -27,6 +28,4 @@ ATTACH 'mysql:user=root database=mysqlscanner' AS mysql;
 ```
 
 In modern data analysis, data definitely is combined from a wide variety of
-different sources. What a game changer feature.
-
-Src: [Multi-Database Support in DuckDB](https://duckdb.org/2024/01/26/multi-database-support-in-duckdb.html)
+different sources. A game changer feature!

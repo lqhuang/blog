@@ -18,9 +18,9 @@ That sounds like a wise proverb! I decided to look it up to learn more about its
 
 Luckily, I found a website called "Don't ask to ask, just ask" [^ask2ask] with clear examples and explanations. Thanks to the author, I can cite it in the future.
 
-Old quotes never die, such as the XY Problem [^xy-info][^xy-meta][^xy-wooledge], how to ask questions [^how-sf][^how-esr], and "no hello" [^nohello]. These all pertain to effective communication in a community, especially in technical circles. Everyone should treasure these principles as gems and apply them in their daily interactions.
+Old quotes never die, such as _the XY Problem_ [^xy-info][^xy-meta][^xy-wooledge], _how to ask questions_ [^how-sf][^how-esr], and _"no hello"_ [^nohello]. These all pertain to effective communication in a community, especially in technical circles. Everyone should treasure these principles as gems and apply them in their daily interactions.
 
-Moreover, another group member shared a computer scientist version of this wisdom:
+The most awesome part is another group member shared a computer scientist version of this wisdom:
 
 > Don't TCP, just UDP
 >

@@ -7,13 +7,11 @@ tags:
   - news
 ---
 
-I read a article on Python Speed about the upcoming NumPy 2.0 release. It shows
-the new features and changes that are coming in the next major release of NumPy.
-The article[^pythonspeed-for-np2] and offical migration
-guide[^np2migration][^np2changelog] is a good start if you are a library developer
-with NumPy or using NumPy in your projects.
+Python Speed posts an article[^pythonspeed-for-np2] about the upcoming NumPy 2.0 release. It shows the new features and changes that are coming in the next major release of NumPy.
 
-Then I just realized that the NumPy 2.0 is coming. I'm excited to see that.
+Then I realize that the NumPy 2.0 is almost here. I'm excited to see that.
+
+The article and offical migration guide[^np2migration][^np2changelog] is a good start if you are a library developer with NumPy or using NumPy in your projects.
 
 Check the numpy/numpy issue #24300[^np2status] for the latest updates on the
 development status and announcements.
