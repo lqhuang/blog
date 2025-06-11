@@ -10,7 +10,7 @@ Such detailed and excellent diagrams! I always cannot well understand "Inversion
 of control" and apply it in real cases, though it seems pretty straightforward.
 
 This post is a part of author's _The Software Architecture Chronicles_. As the
-author wrote: _In them, I write about what I’ve learned about Software
+author wrote: _In them, I write about what I've learned about Software
 Architecture, how I think of it, and how I use that knowledge._
 
 > Those who fail to learn History are doomed to repeat it.

@@ -1,5 +1,5 @@
 ---
-title: 'You Are What You Read, Even If You Don’t Always Remember It'
+title: 'You Are What You Read, Even If You Don't Always Remember It'
 date: 2024-06-21
 tags:
   - good-reading
@@ -16,4 +16,4 @@ Yeah, I always feel so anxious about what I've read and what I've forgotten.
 Bless to myself and all of you: Please don't worry about what you
 remembered or forgot. Just keep reading and read more. Good luck, have fun!
 
-[^you-are-what-you-read]: [You Are What You Read, Even If You Don’t Always Remember It](https://blog.jim-nielsen.com/2024/you-are-what-you-read/)
+[^you-are-what-you-read]: [You Are What You Read, Even If You Don't Always Remember It](https://blog.jim-nielsen.com/2024/you-are-what-you-read/)

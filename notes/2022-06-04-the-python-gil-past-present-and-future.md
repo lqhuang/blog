@@ -26,10 +26,10 @@ And
    access.
 2. Reference Counting:
    - For immortal objects, nogil utilizes the least significant bits of the
-     object’s reference count field for bookkeeping, nogil can make the
+     object's reference count field for bookkeeping, nogil can make the
      refcounting macros no-op for these objects, thus avoiding all contention
      across threads for these fields. nogil also uses a form of biased reference
-     counting to split an object’s refcount into two buckets. The thread that
+     counting to split an object's refcount into two buckets. The thread that
      owns the object can then combine this local and shared refcount for garbage
      collection purposes, and it can give up ownership when its local refcount
      goes to zero.

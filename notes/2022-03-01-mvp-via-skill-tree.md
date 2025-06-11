@@ -13,7 +13,7 @@ tags:
 
 ![final-skill-tree](./assets/01-07-runtime-09-final.avif)
 
-> [WebAssembly’s post-MVP future: A cartoon skill tree](https://hacks.mozilla.org/2018/10/webassemblys-post-mvp-future)
+> [WebAssembly's post-MVP future: A cartoon skill tree](https://hacks.mozilla.org/2018/10/webassemblys-post-mvp-future)
 
 同时也有一些人做了一些工具来生成 Skill Tree / Skill Map
 
