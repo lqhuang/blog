@@ -23,7 +23,7 @@ This's why I always love Postgres in small scale projects.
 >   directly give it to the API.
 > - Use Postgres with a GraphQL adapter to deliver GraphQL if needed.
 >
-> There I’ve said it, just use Postgres for everything.
+> There I've said it, just use Postgres for everything.
 >
 > -- Stephan Schmidt
 

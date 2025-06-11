@@ -24,7 +24,7 @@ Here are some notable serverless databases for edge applications:
     branches and a search-engine built right in. Powered by proven technologies
     such as PostgreSQL and Elasticsearch.
 - MySQL
-  - [PlanetScale](https://planetscale.com/): PlanetScale is the world’s most
+  - [PlanetScale](https://planetscale.com/): PlanetScale is the world's most
     advanced serverless MySQL platform
 - Firebase
   - [Supabase](https://supabase.com/): The Open Source Firebase Alternative

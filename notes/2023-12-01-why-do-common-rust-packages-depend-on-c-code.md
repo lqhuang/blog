@@ -16,7 +16,7 @@ Rust packages depend on C code?_. So I just post it as a recommendation.
 Basically, the TL;DR points are:
 
 - C ABIs
-- C is your operating system’s interface
+- C is your operating system's interface
 - C ABIs are difficult to separate from the C language
 - C ABIs are difficult to separate from C toolchains
 

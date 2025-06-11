@@ -24,7 +24,7 @@ tags:
    模块查看 statement 的 bytecode. 同时解释了 Python 的 GIL 在 bytecode 上是怎么
    导致 race condition 的 (`sys.setcheckinterval()`)
 
-> [Unraveling Python’s Threading Mysteries](https://towardsdatascience.com/unraveling-pythons-threading-mysteries-e79e001ab4c)
+> [Unraveling Python's Threading Mysteries](https://towardsdatascience.com/unraveling-pythons-threading-mysteries-e79e001ab4c)
 
 ### Part 2: what the GIL is
 

@@ -9,11 +9,11 @@ Simon Willison introduces [^tweet-simonw] an article [^article] about how to use
 in latest Python mainline.
 
 > Martin Heinz provides a detailed tutorial on trying out the new
-> Per-Interpreter GIL feature that’s landing in Python 3.12, which allows Python
+> Per-Interpreter GIL feature that's landing in Python 3.12, which allows Python
 > code to run concurrently in multiple threads by spawning separate
 > sub-interpreters, each with their own dedicated GIL.
 >
-> It’s not an easy feature to play with yet! First you need to compile Python
+> It's not an easy feature to play with yet! First you need to compile Python
 > yourself, and then use APIs that are generally only available to C code.
 
 As he mentioned, there is also an implementation of `RecvChannel` and
