@@ -4,7 +4,7 @@ date: 2025-02-05
 tags:
   - rust
   - zig
-  - system-programming
+  - sysprog
 draft: true
 src: https://gist.github.com/rtfeldman/77fb430ee57b42f5f2ca973a3992532f
 ---

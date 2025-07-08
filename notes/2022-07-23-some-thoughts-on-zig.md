@@ -4,7 +4,7 @@ date: 2022-07-23
 tags:
   - good-reading
   - zig
-  - system-programming
+  - sysprog
 ---
 
 An article of Chris Krycho's serveral thoughts on Zig.

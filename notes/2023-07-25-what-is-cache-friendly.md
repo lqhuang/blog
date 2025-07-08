@@ -3,7 +3,7 @@ title: What is a "cache-friendly" code?
 date: 2023-07-25
 tags:
   - dev
-  - system-programming
+  - sysprog
 ---
 
 Such a good question:

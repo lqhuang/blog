@@ -2,7 +2,7 @@
 title: io_uring and seccomp
 date: 2024-10-13
 tags:
-  - system-programming
+  - sysprog
 ---
 
 Till now I just known that `io_uring` is not enabled by default while using container (in the past day XD).

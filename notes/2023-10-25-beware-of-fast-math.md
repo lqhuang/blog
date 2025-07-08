@@ -3,7 +3,7 @@ title: Beware of fast-math
 date: 2023-10-25
 tags:
   - til
-  - system-programming
+  - sysprog
   - clang
 ---
 

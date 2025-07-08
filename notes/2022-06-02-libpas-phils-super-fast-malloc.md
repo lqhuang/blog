@@ -2,7 +2,7 @@
 title: "All About Libpas, Phil's Super Fast Malloc"
 date: 2022-06-02
 tags:
-  - system-programming
+  - sysprog
 ---
 
 WebKit has enabled a new memory allocator called `libpas` to replace bmalloc.

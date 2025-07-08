@@ -2,7 +2,7 @@
 title: Zero-copy network transmission with io_uring
 date: 2023-12-28
 tags:
-  - system-programming
+  - sysprog
   - network
   - news
 ---
