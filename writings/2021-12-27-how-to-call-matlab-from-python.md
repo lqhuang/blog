@@ -1,8 +1,11 @@
 ---
-title: "How to call MATLAB from Python"
+title: 'How to call MATLAB from Python'
 created: 2021-12-27
 updated: 2022-01-03
-tags: ["matlab", "python", "tutorial"]
+tags:
+  - 'matlab'
+  - 'python'
+  - 'tutorial'
 ---
 
 When you want to reuse MATLAB without rerwrite everythings to Python, you're able to call MATLAB functions or scripts directly from Python. That's true!
@@ -70,7 +73,7 @@ python setup.py install
 
 Here `matlabroot` is where you installed MATLAB.
 
-If you succeed, that's all, then you can call MATLAB from Python:)
+If you succeed, that's all, then you can call MATLAB from Python :)
 
 ## Start and Stop MATLAB Engine for Python
 
