@@ -109,7 +109,9 @@ In the first few years, I would try to implement a common interpolation layer fo
 
 Severless is everywhere now. Which means the single threading is doing good.
 
-I have some ideas to build an universal runtime based on `libuv` to brige different languages (Python, JavaScript, Rust, Zig, ..., etc) and runtime into one event loop per thread. Embrace the Thread-per-Core (TPC) model to make the best use of the modern CPU architecture.
+Now, developers are commonly using language like Rust, C++ as extension to speed up the performance of their applications, while the application is writing with Node.js, Python, etc.
+
+I hope to build something based on `libuv` to brige different languages (e.g.: Python with C++ / Zig / Scala Native, Nodejs with C++ / Scala Native) and async runtime into **one same event loop** per thread. Embrace the Thread-per-Core (TPC) model to make the best use of the modern CPU architecture.
 
 ... Still brainstorming.
 
