@@ -22,6 +22,8 @@ Now here is my dev log for the project. I will try to write down my thoughts and
 
 > [!NOTE]
 >
-> I may be a weird Scala programmer, since I've never used Java before. I'm a Python programmer who came from AI algorithm researcher and scientific computing infrastructure engineer.
+> I guess I'm a bit of an oddball as a Scala programmer, since I've never used Java before. I'm a Python programmer with experience in AI algorithm research and scientific computing infrastructure. I use Scala for functional programming–style backend development.
 >
-> Not knowing any Java makes me feel like a kid lost in the dark 🤣
+> Not knowing any Java makes me feel like a kid lost in the dark.
+>
+> I'm sorry if I make any mistakes or misunderstand anything about Java or Scala Native. Please feel free to correct me, which I would really appreciate.
