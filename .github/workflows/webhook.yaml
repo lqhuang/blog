@@ -1,0 +1,14 @@
+name: Trigger Cloudflare deployment while new content is pushed
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Touch webhook
+        run: curl -d "" "${{ secrets.CLOUDFLARE_DEPLOY_HOOKS }}"
