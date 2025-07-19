@@ -103,6 +103,7 @@ In the first few years, I would try to implement a common interpolation layer fo
   - [ ] [scala-native/scala-native - Support for \`java.net.http.HttpClient\` #4104](https://github.com/scala-native/scala-native/issues/4104)
     - Status: Onging
     - [lqhuang/scala-native-http](https://github.com/lqhuang/scala-native-http): A proof of concept project to implement `java.net.http` module since Java 11 for Scala Native
+- [x] [lqhuang/redef](https://github.com/lqhuang/redef): Improved `predef` for Scala 3
 - [ ] [lqhuang/curtus](https://github.com/lqhuang/curtus): Scala Native bindings for Python -- Python Curtus (aka: Blood Python)
   - Status: WIP
 - [ ] [lqhuang/dax](https://github.com/lqhuang/dax): No description, website, or topics provided.
