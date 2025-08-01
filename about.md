@@ -2,7 +2,7 @@ Partial facts about me
 
 - A cup of coffee every morning
 - A mix of Charlie Brown and Marcie
-  - But I hope to be Linus and Rerun more 🥰
+  - but I hope to be Linus and Rerun more 🫠
 - Art and classic film fan
 - Asian, but not that much of a nerd.
 - Boring tech stacks at work, but go on cutting-edge stuff for side projects
