@@ -1,3 +1,5 @@
+# The Projects I'm Working on
+
 After resigning from my last position in Dec 2024, I have had a lot of ideas and projects emerge in my mind, based on my experiences and observations from the past years.
 
 Some of these ideas are just for fun, some are niche ideas without concrete use cases, and some of them may even be incorrect. Nevertheless, I just write them down and try to build them, either publicly or privately (depending on the nature of the projects). I share the progress with people, while also considering my next significant career move (becoming a full-time OSS contributor).
