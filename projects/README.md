@@ -1,4 +1,12 @@
-# The Projects I'm Working on
+---
+title: The Projects I'm Working on
+date: 2025-02-25
+tags:
+  - scala
+  - python
+  - career
+  - mlsys
+---
 
 After resigning from my last position in Dec 2024, I have had a lot of ideas and projects emerge in my mind, based on my experiences and observations from the past years.
 
