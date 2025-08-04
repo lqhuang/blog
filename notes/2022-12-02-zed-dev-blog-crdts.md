@@ -5,10 +5,17 @@ tags:
   - good-reading
   - dev
   - crdt
+src: https://zed.dev/blog/crdts
 ---
 
-An animation is worth a thousand words.
+_An animation is worth a thousand words._
 
-![Past insertions can become the parent of new insertions.](https://zed.dev/img/post/crdts/crdt-concurrent-insertion-part-3.mp4)
+<video controls autoplay muted loop>
+  <source src="https://zed.dev/img/post/crdts/crdt-concurrent-insertion-part-3.mp4" type="video/mp4" />
+</video>
 
-> [How CRDTs make multiplayer text editing part of Zed's DNA](https://zed.dev/blog/crdts)
+> The above video shows how past insertions can become the parent of new insertions.
+
+### References
+
+- [How CRDTs make multiplayer text editing part of Zed's DNA](https://zed.dev/blog/crdts)

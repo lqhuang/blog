@@ -97,7 +97,7 @@ The best outcomes would be to become part of some non-profit foundations sponsor
 In the first few years, I would try to implement a common interpolation layer for Scala Native and JAX. Besides, I contributed to Scala 3 and SN projects to improve their eco systems.
 
 - Let `requests-scala` support Scala Native (OSS bounty)
-  - I write a [blog post](https://lqhuang.io/project/requests-scala-native-support-bounty) to share my experience
+  - 🌟 I write a [blog post](https://lqhuang.io/project/requests-scala-native-support-bounty) to share my experience
   - [ ] [com-lihaoyi/requests-scala - Scala-Native Support (1000USD Bounty) #156](https://github.com/com-lihaoyi/requests-scala/issues/156)
     - [x] [com-lihaoyi/requests-scala - chore: Upgrade build deps to ensure compatible with Scala Native #178](https://github.com/com-lihaoyi/requests-scala/pull/178)
   - [ ] [scala-native/scala-native - Support for \`java.net.http.HttpClient\` #4104](https://github.com/scala-native/scala-native/issues/4104)
