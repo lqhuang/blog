@@ -2,9 +2,9 @@
 title: The Projects I'm Working on
 date: 2025-02-25
 tags:
+  - career
   - scala
   - python
-  - career
   - mlsys
 ---
 
@@ -16,51 +16,27 @@ These ideas may be in their early stages, not yet mature, or even based on incor
 
 <!-- I will dedicate myself to these ideas until they're done, they grow to maturity, or they're not fun anymore, or they turn out to be totally wrong. Then I can move on to the next idea. -->
 
-## xattrs and rekki
-
-**Motivation**
-
-Starting with the 3.13 release, CPython has experimental support for a build of Python called free threading where the global interpreter lock (GIL) is disabled. Free-threaded execution allows for full utilization of the available processing power by running threads in parallel on available CPU cores.
-
-The whole numerical computing and AI community will benefit from this new feature. This advancement, however, comes with challenges. It's necessary to verify its compatibility in production environments. Therefore, I hope to build some tools and libraries to support the free-threading model in Python.
-
-- `xattrs` is eXtensible toolkits of your attrs and dataclasses types with sensible default behaviors.
-  - leverage the power of JAX `PyTree` idea to serialize and deserialize the structured data
-- `rekki` is an experimental reactive programming framework for Python. Utilizing the free-threading model, it will provide a new way to build asyncio services and applications.
-
-Progress:
-
-- [x] [lqhuang/xattrs](https://github.com/lqhuang/xattrs): An eXtensible serializing and deserializing toolkit for Python strucuted classes (eg: dataclasses, attrs)
-  - Completed PoC and MVP
-  - Currently polishing the code and documentation
-- [ ] [rekki-dev/rekki](https://github.com/rekki-dev/rekki)
-  - successor of `mode-ng` with free-threading support
-  - [lqhuang/mode-ng](https://github.com/lqhuang/mode-ng): mode asyncio services framework (next-generation)
-- [ ] andata: lock-free ringbuffer for free-threading concurrency model in Python
-
-**Potential sustainable model**
-
-- Open source sponsorship
-- Community-driven development
-- Commercial support
-
-I hope it could become as awesome as the Pallets community <https://palletsprojects.com/>.
-
 ## CHMK AI
 
-> previous chaos-monkey.ai <https://chaos-monkey.ai/>
+> previous Chaos Monkey AI
 
 A practical AI platform
 
 - For users: A **collaborative** AI teamspace to help them work together with cutting-edge AI technologies. Think of it as Figma for scientists and developers.
 - For developers: A **headless** AI observability platform to build, ship, and monitor agentive systems. Headless observability combines two core concepts: headless architecture and the decoupled observability stack. Storage, ingestion, and visualization are decoupled, resulting in greater flexibility and lower costs.
+  - leverage DuckDB and IceBerg
 
 It's a SaaS model and a proprietary project. Yes, I need to make money to support my family.
 
 Progress
 
 - Finished the MVP
-- Waiting to launch
+- ~~Waiting to launch~~
+
+Side effects
+
+- jotai-ai
+- typedfun ui
 
 ## Scala Native and DAX
 
@@ -113,11 +89,43 @@ In the first few years, I would try to implement a common interpolation layer fo
   - [ ] [scala-native/scala-native - Support for \`java.net.http.HttpClient\` #4104](https://github.com/scala-native/scala-native/issues/4104)
     - Status: Onging
     - [lqhuang/scala-native-http](https://github.com/lqhuang/scala-native-http): A proof of concept project to implement `java.net.http` module since Java 11 for Scala Native
-- [x] [lqhuang/redef](https://github.com/lqhuang/redef): Improved `predef` for Scala 3
+  - [ ] [lolgab/scala-native-crypto - refactor: Implement major interfaces of Java Cryptography Architecture and reorganize existed services into `OpenSslProvider` #25](https://github.com/lolgab/scala-native-crypto/pull/25)
+- [x] [scala-redef/redef](https://github.com/scala-redef/redef): Improved `predef` for Scala 3
+  - Status: PoC
 - [ ] [lqhuang/curtus](https://github.com/lqhuang/curtus): Scala Native bindings for Python -- Python Curtus (aka: Blood Python)
-  - Status: WIP
-- [ ] [lqhuang/dax](https://github.com/lqhuang/dax): No description, website, or topics provided.
   - Status: initial repository 🤣
+- [ ] [lqhuang/dax](https://github.com/lqhuang/dax): No description, website, or topics provided.
+  - Status: initial repository 😅
+
+## xattrs and rekki
+
+**Motivation**
+
+Starting with the 3.13 release, CPython has experimental support for a build of Python called free threading where the global interpreter lock (GIL) is disabled. Free-threaded execution allows for full utilization of the available processing power by running threads in parallel on available CPU cores.
+
+The whole numerical computing and AI community will benefit from this new feature. This advancement, however, comes with challenges. It's necessary to verify its compatibility in production environments. Therefore, I hope to build some tools and libraries to support the free-threading model in Python.
+
+- `xattrs` is eXtensible toolkits of your attrs and dataclasses types with sensible default behaviors.
+  - leverage the power of JAX `PyTree` idea to serialize and deserialize the structured data
+- `rekki` is an experimental reactive programming framework for Python. Utilizing the free-threading model, it will provide a new way to build asyncio services and applications.
+
+Progress:
+
+- [x] [lqhuang/xattrs](https://github.com/lqhuang/xattrs): An eXtensible serializing and deserializing toolkit for Python strucuted classes (eg: dataclasses, attrs)
+  - Completed PoC and MVP
+  - Currently polishing the code and documentation
+- [ ] [rekki-dev/rekki](https://github.com/rekki-dev/rekki)
+  - successor of `mode-ng` with free-threading support
+  - [lqhuang/mode-ng](https://github.com/lqhuang/mode-ng): mode asyncio services framework (next-generation)
+- [ ] andata: lock-free ringbuffer for free-threading concurrency model in Python
+
+**Potential sustainable model**
+
+- Open source sponsorship
+- Community-driven development
+- Commercial support
+
+I hope it could become as awesome as the Pallets community <https://palletsprojects.com/>.
 
 ## Single threading is doing good.
 
@@ -129,11 +137,12 @@ I hope to build something based on `libuv` to brige different languages (e.g.: P
 
 ... Still brainstorming.
 
-<!-- ## Templates
+<!--
 
 - Motivation
 - Design
 - Status
 - Implementation
 - Evaluation
-- -->
+
+-->

@@ -7,6 +7,7 @@ Partial facts about me
 - Asian, but not that much of a nerd
 - Boring tech stacks at work, but go on cutting-edge stuff for side projects
 - Can't LeetCode, so big tech jobs are out of reach
+- Have things right make me peaceful.
 - I do hard things. Hard things can be difficult, but not impossible
 - More confident when coding than writing
 - Not a computer science major, but became a software architect at two companies
