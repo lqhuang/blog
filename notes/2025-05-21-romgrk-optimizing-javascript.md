@@ -14,7 +14,7 @@ What's confusing for me is many common coding patterns, while generally consider
 - Avoid array/object methods like `map`, `filter` in functional style
 - Prefer concatenation over template literals for strings
 
-Still many other tricks are useful
+Still many other tricks are useful.
 
 Refs:
 
