@@ -2,9 +2,8 @@
 title: 'Sea Change in C++: Why Opportunities Abound - Citadel Securities'
 date: 2025-09-15
 tags:
-  - modern-cpp
+  - clang
   - insight
-  - good-reading
 ---
 
 Still amazing how modern C++ evolve recent years and why I'm considering modern C++ again.

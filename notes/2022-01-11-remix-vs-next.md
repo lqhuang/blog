@@ -2,7 +2,6 @@
 title: 'Remix vs Next.js'
 date: 2022-01-11
 tags:
-  - front-end
   - good-reading
   - web
 ---
