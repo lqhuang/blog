@@ -1,5 +1,5 @@
 ---
-title: 'Redesign Jotai AI's public API in a Jotai way'
+title: "Redesign Jotai AI's public API in a Jotai way"
 created: 2025-09-30
 updated: 2025-10-25
 published: 2025-11-01
